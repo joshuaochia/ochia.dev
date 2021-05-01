@@ -1,12 +1,18 @@
 .header{
     text-align: center;
-    padding: 320px 0;
+    padding: auto;
     text-align: center;
     height: 800px;
 }
 
 .icon{
+
     height: 50px;
-    width: 50px;
+    width: auto;
     margin: 20px;
+}
+
+.gif{
+    height: auto;
+    width: 50%;
 }
