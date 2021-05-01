@@ -2,7 +2,8 @@
     text-align: center;
     padding: auto;
     text-align: center;
-    height: 800px;
+    height: auto;
+    border: 1px solid blue;
 }
 
 .icon{
