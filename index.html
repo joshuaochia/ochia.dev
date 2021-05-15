@@ -11,6 +11,7 @@
     <title>Ochia.dev - Get to know me</title>
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Bootstrap core CSS -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -75,7 +76,7 @@
     <header>
         <div class="container">
             <div class="intro-text ">
-                <div class="intro-lead-in mt-3">Django Dev | DevOps</div>
+                <div class="intro-lead-in mt-3"> </h1>Django Dev | DevOps</div>
                 <div class="intro-heading pt-5">Joshua Ochia</div>
                 <a href="mailto:joshua@ochia.dev" class="btn btn-warning btn-lg">Hire me</a>
             </div>
@@ -83,7 +84,7 @@
     </header>
 
     <!-- Services -->
-    <section id="services">
+    <section id="services" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -133,13 +134,13 @@
     <section id="portfolio" class="bg-faded">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
+                <div class="col-lg-12 text-center"  data-aos="fade-up">
+                    <h2 class="section-heading" >Portfolio</h2>
                     <h3 class="section-subheading text-muted">View my latest projects with Django</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item"  data-aos="fade-right">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -153,7 +154,7 @@
                         <p class="text-muted">Django, REST API, & Postgresql</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item" data-aos="fade-up">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -167,7 +168,7 @@
                         <p class="text-muted">Django, HTML, & CSS</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item" data-aos="fade-left">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -190,7 +191,7 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center"  data-aos="fade-in">
                     <h2 class="section-heading">Journey</h2>
                     <h3 class="section-subheading text-muted">My freelance journey from the start</h3>
                 </div>
@@ -198,7 +199,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
-                        <li>
+                        <li  data-aos="fade-right">
                             <div class="timeline-image">
                                 <img class="rounded-circle img-fluid" src="img/about/freelance.jpg" alt="">
                             </div>
@@ -216,7 +217,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                        <li class="timeline-inverted"  data-aos="fade-left">
                             <div class="timeline-image">
                                 <img class="rounded-circle img-fluid" src="img/about/marketing.jpg" alt="">
                             </div>
@@ -234,7 +235,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li >
+                        <li  data-aos="fade-right" >
                                 <div class="timeline-image">
                                     <img class="rounded-circle img-fluid" src="img/about/coding.jpeg" alt="">
                                 </div>
@@ -253,7 +254,7 @@
                             </div>
                         </li>
 
-                        <li class="timeline-inverted">
+                        <li class="timeline-inverted"  data-aos="fade-up">
                             <div class="timeline-image">
                                 <h4>None
                                     <br>Stop
@@ -267,7 +268,7 @@
     </section>
 
     <!-- Me -->
-    <section id="team" class="bg-faded">
+    <section id="team" class="bg-faded"  data-aos="slide-left">
         <div id="team"  class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12  col-xs-12 text-center">
@@ -307,7 +308,7 @@
     </section>
 
     <!-- Clients -->
-    <aside class="clients">
+    <aside class="clients" data-aos="slide-right">
         <div class="container">
             <div class="row">
                 <div id="" class="col-md-2 col-6">
@@ -551,6 +552,14 @@
 
     <!-- Cusotm JavaScript for this theme -->
     <script src="js/agency.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 1000
+      });
+    </script>
 
 </body>
 
