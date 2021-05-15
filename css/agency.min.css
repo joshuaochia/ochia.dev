@@ -49,6 +49,7 @@ aside.clients img{margin:50px auto}section#contact{background-color:#222;backgro
   }
   html, body {
     overflow-x: hidden;
+    width: 100%;
   }
   #techno{
     font-size: 30px;
