@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white; }
 
 #mainNav {
-  background-color: #222222; }
+  background-color: transparent; }
   #mainNav .navbar-toggler {
     border: 0;
     color: white;
@@ -275,7 +275,7 @@ section {
       margin: 0; }
 
 #portfolio * {
-  z-index: 2; }
+  z-index: 0; }
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
@@ -325,7 +325,7 @@ section {
       width: 80px;
       height: 80px;
       position: absolute;
-      z-index: 100;
+      z-index: 0;
       background-color: #fed136;
       color: white;
       border-radius: 100%;
