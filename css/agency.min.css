@@ -298,6 +298,62 @@ header .intro-text .intro-heading {
 
 /* Modal */
 
+@media (max-width: 813px) {
+
+  .modal1 {
+
+    width: auto !important;
+    height: auto !important;
+  }
+  .overlay1 {
+
+    width: auto  !important;
+    height: auto !important;
+  }
+  
+  .modal1__header {
+    font-size: 2.25rem !important;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  
+  }
+  
+  .modal1__form {
+    margin: 0 !important;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: left !important;
+    gap: 2.5rem;
+  }
+  
+  .modal1__form label {
+    font-size: 1rem !important;
+    font-weight: 500;
+  }
+  
+  .modal1__form input, textarea {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    width: auto !important;
+    height: auto !important;
+  }
+  
+  .modal1__form button {
+    grid-column: 1 / span 2;
+    justify-self: center;
+    margin-top: 1rem;
+  }
+  
+  .btn--close-modal {
+    font-family: inherit !important;
+    text-align: center !important;
+    justify-self: center !important;
+    transform: translate(-460%, 600%);
+  }
+}
+
 /* MODAL WINDOW */
 .modal1 {
   position: fixed;
@@ -312,6 +368,8 @@ header .intro-text .intro-heading {
   transition: all 0.5s;
   max-height: 50rem;
 }
+
+
 
 .overlay1 {
   position: fixed;
