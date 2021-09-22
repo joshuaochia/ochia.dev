@@ -9,16 +9,16 @@
     <meta name="author" content="">
 
     <title>Ochia.dev - Get to know me</title>
-    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
+    <link rel="shortcut icon" type="image/jpg" href="/src/img/favicon.ico" />
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <!-- Bootstrap core CSS -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional fonts for this theme -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="./node_modules/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
@@ -26,7 +26,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this theme -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <!-- <link href="css/agency.min.css" rel="stylesheet"> -->
 
     <!-- Temporary navbar container fix until Bootstrap 4 is patched -->
     <style>
@@ -47,14 +47,15 @@
 
     <!-- Navigation -->
     <div class="nav-header">
-        <nav class="navbar navbar-toggleable-md " id="mainNav">
+        <nav class="navbar navbar-expand-lg" id="mainNav">
             <div class="container">
+                <a class="navbar-brand" href="#page-top">Ochia.dev</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                     data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                     aria-label="Toggle navigation">
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Ochia.dev</a>
+
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
@@ -88,14 +89,15 @@
                                 data-words='["Joshua Ochia"]'></span></h1>
                     </div>
 
-                    <h1>Software <span class="highlight">Engineer</span></h1>
-                    <a href="mailto:joshua@ochia.dev" class="btn btn-primary btn-lg mt-4 ">Hire me</a>
+                    <h1 class="sub-heading">Software <span class="highlight">Engineer</span></h1>
+                    <a href="mailto:joshua@ochia.dev" class="btn btn-primary btn-lg mt-4 hire-me">Hire me</a>
                 </div>
 
             </div>
 
         </header>
-        <img src="/img/header.png" alt="asda" class="wave" style="width: 100%">
+
+        <img src="./src/img/header.png" alt="asda" class="wave" style="width: 100%">
     </div>
 
     <!-- Services -->
@@ -110,56 +112,56 @@
 
             <div class="row text-center">
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/django.png" class="img-fluid">
+                    <img id="techs" src="/src/img/techs/django.png" class="img-fluid">
                     </span>
                 </div>
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/drf.png" class="img-fluid">
+                    <img id="techs" src="/src/img/techs/drf.png" class="img-fluid">
 
 
                 </div>
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/digital-ocean.png" class="img-fluid">
+                    <img id="techs" src="/src/img/techs/digital-ocean.png" class="img-fluid">
                 </div>
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/ubuntu.png" alt="">
+                    <img id="techs" src="/src/img/techs/ubuntu.png" alt="">
                 </div>
             </div>
 
             <div class="row text-center">
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/git.png" class="img-fluid">
+                    <img id="techs" src="/src/img/techs/git.png" class="img-fluid">
                 </div>
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/docker.jpg" class="img-fluid">
+                    <img id="techs" src="/src/img/techs/docker.jpg" class="img-fluid">
                 </div>
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/html.png" class="img-fluid">
+                    <img id="techs" src="/src/img/techs/html.png" class="img-fluid">
                 </div>
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/css.png" class="img-fluid">
+                    <img id="techs" src="/src/img/techs/css.png" class="img-fluid">
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/wagtail.png" class="img-fluid">
+                    <img id="techs" src="/src/img/techs/wagtail.png" class="img-fluid">
                 </div>
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/kurbenetes.png" class="img-fluid">
+                    <img id="techs" src="/src/img/techs/kurbenetes.png" class="img-fluid">
 
                 </div>
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/js.png" class="img-fluid">
+                    <img id="techs" src="/src/img/techs/js.png" class="img-fluid">
                 </div>
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/bootstrap.png" class="img-fluid">
+                    <img id="techs" src="/src/img/techs/bootstrap.png" class="img-fluid">
                 </div>
                 <!-- New -->
                 <div class="offset-md-3 col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/python.png" class="img-fluid">
+                    <img id="techs" src="/src/img/techs/python.png" class="img-fluid">
                 </div>
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img id="techs" src="img/techs/gcp.png" class="img-fluid">
+                    <img id="techs" src="/src/img/techs/gcp.png" class="img-fluid">
                 </div>
             </div>
 
@@ -183,7 +185,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/flow.png" class="img-fluid" alt="">
+                        <img src="/src/img/portfolio/flow.png" class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>School Management</h4>
@@ -197,7 +199,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/bank.png" class="img-fluid" alt="">
+                        <img src="/src/img/portfolio/bank.png" class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption different">
                         <h4>Bank App</h4>
@@ -211,7 +213,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/recipe.png" class="img-fluid" alt="">
+                        <img src="/src/img/portfolio/recipe.png" class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Recipe API</h4>
@@ -237,7 +239,7 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/freelance.jpg" alt="">
+                                <img class="rounded-circle img-fluid" src="/src/img/about/freelance.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -257,7 +259,7 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/marketing.jpg" alt="">
+                                <img class="rounded-circle img-fluid" src="/src/img/about/marketing.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -276,7 +278,7 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/coding.jpeg" alt="">
+                                <img class="rounded-circle img-fluid" src="/src/img/about/coding.jpeg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -319,18 +321,19 @@
             <div class="row">
                 <div class=" col-md-12  col-sm-12 col-lg-12">
                     <div class="team-member">
-                        <img src="img/personal-pics/me.png" class="mx-auto rounded-circle" alt="">
+                        <img src="/src/img/personal-pics/me.png" class="mx-auto rounded-circle" alt="">
                         <h4>Joshua Ochia</h4>
                         <p class="text-muted">Software Engineer</p>
+
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item"><a href="https://twitter.com/ochia_dev" target="_blank"><i
-                                        class="fa fa-twitter"></i></a>
+                                        class="fab fa-twitter"></i></a>
                             </li>
                             <li class="list-inline-item"><a href="https://github.com/joshuaochia" target="_blank"><i
-                                        class="fa fa-github"></i></a>
+                                        class="fab fa-github"></i></a>
                             </li>
                             <li class="list-inline-item"><a href="https://www.linkedin.com/in/joshuaochia/"
-                                    target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    target="_blank"><i class="fab fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -354,60 +357,59 @@
 
     <!-- Clients -->
     <div class="clients">
-        <section class="section--hidden">
-            <div class="container">
-                <div class="row">
-                    <div id="extensions" class="col-md-2 col-6 pt-5">
-                        <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"
-                            target="_blank">
-                            <img id="extension" src="img/vscode-extensions/live-server.png"
-                                class="img-fluid d-block mx-auto" alt="">
-                        </a>
-                    </div>
-                    <div id="extensions" class="col-md-2 col-6 pt-5">
-                        <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="_blank">
-                            <img id="extension" src="img/vscode-extensions/gitlens.png"
-                                class="img-fluid d-block mx-auto" alt="">
-                        </a>
-                    </div>
-                    <div id="extensions" class="col-md-2 col-6 pt-5">
-                        <a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme"
-                            target="_blank">
-                            <img id="extension" src="img/vscode-extensions/material.png"
-                                class="img-fluid d-block mx-auto" alt="">
-                        </a>
-                    </div>
-                    <div id="extensions" class="col-md-2 col-6 pt-5">
-                        <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
-                            target="_blank">
-                            <img id="extension" src="img/vscode-extensions/prettier.png"
-                                class="img-fluid d-block mx-auto" alt="">
-                        </a>
-                    </div>
-                    <div id="extensions" class="col-md-2 col-6 pt-5">
-                        <a href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments"
-                            target="_blank">
-                            <img id="extension" src="img/vscode-extensions/comments.png"
-                                class="img-fluid d-block mx-auto" alt="">
-                        </a>
-                    </div>
-                    <div id="extensions" class="col-md-2 col-6 pt-5">
-                        <a href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer"
-                            target="_blank">
-                            <img id="extension" src="img/vscode-extensions/bracket.png"
-                                class="img-fluid d-block mx-auto" alt="">
-                        </a>
-                    </div>
+
+        <div class="container">
+            <div class="row">
+                <div id="extensions" class="col-md-2 col-6 pt-5">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">
+                        <img id="extension" src="/src/img/vscode-extensions/live-server.png"
+                            class="img-fluid d-block mx-auto" alt="">
+                    </a>
+                </div>
+                <div id="extensions" class="col-md-2 col-6 pt-5">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="_blank">
+                        <img id="extension" src="/src/img/vscode-extensions/gitlens.png"
+                            class="img-fluid d-block mx-auto" alt="">
+                    </a>
+                </div>
+                <div id="extensions" class="col-md-2 col-6 pt-5">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme"
+                        target="_blank">
+                        <img id="extension" src="/src/img/vscode-extensions/material.png"
+                            class="img-fluid d-block mx-auto" alt="">
+                    </a>
+                </div>
+                <div id="extensions" class="col-md-2 col-6 pt-5">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+                        target="_blank">
+                        <img id="extension" src="/src/img/vscode-extensions/prettier.png"
+                            class="img-fluid d-block mx-auto" alt="">
+                    </a>
+                </div>
+                <div id="extensions" class="col-md-2 col-6 pt-5">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments"
+                        target="_blank">
+                        <img id="extension" src="/src/img/vscode-extensions/comments.png"
+                            class="img-fluid d-block mx-auto" alt="">
+                    </a>
+                </div>
+                <div id="extensions" class="col-md-2 col-6 pt-5">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer"
+                        target="_blank">
+                        <img id="extension" src="/src/img/vscode-extensions/bracket.png"
+                            class="img-fluid d-block mx-auto" alt="">
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
+
     </div>
 
     <!-- Contact -->
 
     <section class="section--hidden" id="last">
         <div id="contact">
-            <img src="/img/footer.png" alt="asda" class="img-fluid" style="width: 100%">
+            <img src="/src/img/footer.png" alt="asda" class="img-fluid" style="width: 100%">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center pt-5">
@@ -471,13 +473,13 @@
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item"><a href="https://twitter.com/ochia_dev" target="_blank"><i
-                                    class="fa fa-twitter"></i></a>
+                                    class="fab fa-twitter"></i></a>
                         </li>
                         <li class="list-inline-item"><a href="https://github.com/joshuaochia" target="_blank"><i
-                                    class="fa fa-github"></i></a>
+                                    class="fab fa-github"></i></a>
                         </li>
                         <li class="list-inline-item"><a href="https://www.linkedin.com/in/joshuaochia/"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
+                                target="_blank"><i class="fab fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -513,7 +515,7 @@
                                 <!-- Project Details Go Here -->
                                 <h2>School Management</h2>
                                 <p class="item-intro text-muted">Django, REST API, & Postgresql</p>
-                                <img class="img-fluid d-block mx-auto" src="img/portfolio/flow.png" alt="">
+                                <img class="img-fluid d-block mx-auto" src="/src/img/portfolio/flow.png" alt="">
                                 <p>
                                     API for a school, here are some features.
                                     Add employees and students -
@@ -554,7 +556,7 @@
                                 <!-- Project Details Go Here -->
                                 <h2>Bank App</h2>
                                 <p class="item-intro text-muted">JavaScript, HTML, & CSS</p>
-                                <img class="img-fluid d-block mx-auto" src="img/portfolio/bank.png" alt="">
+                                <img class="img-fluid d-block mx-auto" src="/src/img/portfolio/bank.png" alt="">
                                 <p>
                                     Simple Bank app to test and showcase - Using JavaScript, HTML, and CSS
                                 </p>
@@ -590,7 +592,7 @@
                                 <!-- Project Details Go Here -->
                                 <h2>Recipe API</h2>
                                 <p class="item-intro text-muted">Django, REST API, & Docker</p>
-                                <img class="img-fluid d-block mx-auto" src="img/portfolio/recipe.png" alt="">
+                                <img class="img-fluid d-block mx-auto" src="/src/img/portfolio/recipe.png" alt="">
                                 <p>
                                     Sorting and organizing recipe for a particular food. Filters, users, etc... are also
                                     available.
@@ -631,21 +633,16 @@
     <div class="overlay1 hidden"></div>
 
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/tether/tether.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <!--  
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="./src/js/jqBootstrapValidation.js"></script>
+    script src="./src/js/script.min.js"></script> -->
 
-
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Cusotm JavaScript for this theme -->
-    <script src="js/agency.min.js"></script>
 
 
 
