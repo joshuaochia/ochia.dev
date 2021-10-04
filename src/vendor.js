@@ -1,5 +1,4 @@
-const jQuery = require("jquery");
-const popper = require("popper.js");
-const bootstrap = require("bootstrap");
-
-const tether = require("tether");
+import "jquery";
+import "popper.js";
+import "bootstrap";
+import "tether";
