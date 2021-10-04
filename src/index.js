@@ -1,2 +1,2 @@
-import "./js/script.min.js";
-import "./scss/agency.scss";
+import "./js/script.js";
+import "./scss/style.scss";
