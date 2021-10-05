@@ -8,6 +8,7 @@ module.exports = merge(common, {
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
+    assetModuleFilename: "src/[hash][ext][query]",
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -19,10 +20,6 @@ module.exports = merge(common, {
       {
         test: /\.scss$/i,
         use: ["style-loader", "css-loader", "sass-loader"],
-      },
-      {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader", "postcss-loader"],
       },
     ],
   },
