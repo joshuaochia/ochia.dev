@@ -8,6 +8,7 @@ module.exports = merge(common, {
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
+    assetModuleFilename: "src/[hash][ext][query]",
   },
   plugins: [
     new HtmlWebpackPlugin({

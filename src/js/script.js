@@ -1,3 +1,4 @@
 "use strict";
-
-console.log(`I'm Here`);
+// Jquery Import
+const $ = require("jquery");
+window.$ = $;
