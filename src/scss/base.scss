@@ -1,15 +1,18 @@
 @import "var.scss";
 @import "components.scss";
 
+
 // Global Settings
 
+body{
+    margin: 0px;
+}
 
-
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6{
     font-family:'MADE Dillan';
 }
 
-p {
+p, li{
     font-family: 'Space Text';
     font-weight: 100 !important;
     color: rgb(82, 81, 81);
@@ -27,6 +30,7 @@ section{
     color: white;
     background-color: $primary-color;
     border-radius: 30px;
+    font-family: 'MADE Dillan';
 }
 
 .btn-green:hover{
@@ -37,11 +41,6 @@ section{
 
 
 
-.hire-me{
-    background-color: black !important;
-    color: white;
-
-}
 // Navbar Settings
 
 .navbar-brand h2{
@@ -119,12 +118,60 @@ section{
 }
 }
 
-// Header Settings
 
-#header{
 
-    padding-top: 3%;
+
+// Footer 
+footer{
+    min-height: 290px;
+    margin: 5rem 0% 0% 0% !important;
+    background-color: $primary-color;
+  }
+
+.hire-me-arrow{
+
+    font-stretch: expanded;
+    vertical-align: middle;
+
+    letter-spacing: 20px;
+
 }
+
+.hire-me{
+    background-color: black !important;
+    color: white;
+    padding: 0.5rem;
+}
+
+#hire-me-btn{
+    height: 45px;
+    width: 250px;
+}
+
+.footer-second, .footer-second a{
+    color: white !important;
+    text-align: center;
+}
+
+.footer-brand{
+    
+    padding-top: 35px;
+}
+
+.footer-brand a h2{
+    font-size: 50px;
+}
+
+.ul-list{
+    padding-top: 5px;
+}
+
+.ul-list li{
+    color:  white !important;
+}
+
+
+// Container
 
 .green-container-left{
     height: 80vh;
@@ -135,93 +182,36 @@ section{
 
 .white-container{
     text-align: center;
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
-.heading h1{
-    font-size: 3.5rem !important;
-
-}
-
-.sub-heading{
-    padding-top: 2%;
-    font-size: 30px;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-
-.learn-more{
-    font-weight: 600;
-}
-
-.division{
-    background-color: black;
-    margin-top: 10%;
-    width: 80%;
-}
-
-.social-media a{
+.social-media-global a{
     color: black;
-    padding: 1.5rem;
+    padding: 1rem;
 
 }
 
-// Header Responsive
+.social-media-global{
+    text-align: right  ;
+}
 
-
-@media only screen and (max-width: 600px) {
-
-    #header{
-        padding-top: 10% !important;
+@media only screen and (max-width: 767px) {
+    .social-media-global{
+        text-align:center;
+        margin: 0%;
     }
-    .green-container-left{
-        border-radius: 0%;
-        height: 50vh;
-    }
-
-    .heading h1{
-        font-size: 2rem !important; 
+    .social-media-global a:not(:first-child){
+        color: black;
+        padding: 1rem;
     
     }
 
-    .sub-heading{
-        padding-top: 2%;
-        font-size: 18px;
-        padding-left: 0%;
-        padding-right: 0%;
-    }
-
-    .social-media a{
-        margin-right:0%;
-        padding: 5px;
-    
-    }
 }
 
-// feature projects settings
-
-.feature-projects{
-   border-right: 2px solid black;
+.global-header{
+    border-bottom: 1px solid black;
 }
 
-
-.project-2{
-    margin-left: 2rem !important;
+.global-sub-heading{
+    padding-top: 15px;
 }
-
-@media only screen and (max-width: 600px) {
-    .project-2{
-        margin-top: 1rem;
-    }
-}
-
-// Footer 
-footer{
-    position: relative;
-    bottom: 0%;
-    padding-bottom: 0px;
-  
-    flex-shrink: 0;
-    margin: 5rem 0% 0% 0% !important;
-    background-color: $primary-color !important;
-  }
