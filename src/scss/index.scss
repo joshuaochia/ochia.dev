@@ -1,0 +1,110 @@
+@import "var.scss";
+@import "components.scss";
+
+
+// Header Settings
+
+#header{
+
+    padding-top: 3%;
+}
+
+.heading h1{
+    font-size: 3.5rem !important;
+
+}
+
+.index-sub-heading{
+    padding-top: 2%;
+    font-size: 30px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.learn-more{
+    font-weight: 600;
+}
+
+.division{
+    background-color: black;
+    margin-top: 10%;
+    width: 80%;
+}
+
+.index-social-media a{
+    color: black;
+    padding: 1.5rem;
+
+}
+
+// Header Responsive
+
+
+@media only screen and (max-width: 600px) {
+
+    #header{
+        padding-top: 10% !important;
+    }
+    .green-container-left{
+        border-radius: 0%;
+        height: 50vh;
+    }
+
+    .heading h1{
+        font-size: 2rem !important; 
+    
+    }
+
+    .index-sub-heading{
+        padding-top: 2%;
+        font-size: 18px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .index-social-media a{
+        margin-right:0%;
+        padding: 5px;
+    
+    }
+}
+
+// feature projects settings
+
+.feature-projects{
+   border-right: 2px solid black;
+}
+
+
+.project-2{
+    margin-left: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .project-2{
+        margin-top: 1rem;
+        margin-left: 0px;
+    }
+
+    .feature-projects{
+        border-right: none !important;
+     }
+}
+
+.card{
+    width: 18rem;
+}
+
+@media only screen and (max-width: 1130px) {
+    .card{
+       width: 13rem;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .card{
+        width: 18rem;
+    }
+
+}

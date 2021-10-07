@@ -1,5 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
-@import "scss/style.scss";
+@import "scss/index.scss";
+@import "scss/base.scss";
+@import "scss/blog.scss";
+@import "scss/contact.scss";
+@import "scss/projects.scss";
+@import "scss/about.scss";
 
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
