@@ -259,3 +259,14 @@ footer{
     border-bottom:2px solid white;
     margin: 0.3em auto 0;
 }
+
+.navbar-shrink{
+    position: sticky;
+
+    top: 0; /* At the top */
+    z-index: 100;
+    background-color: black;
+    color: white !important;
+    transition: z-index 2s, height 4s;
+}
+
