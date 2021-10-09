@@ -78,5 +78,33 @@ class TyperWriter {
     this._txtElement.innerHTML = `${this._txt}`;
   }
 }
+if (document.querySelector(".index-sub-heading")) new TyperWriter(100);
 
-new TyperWriter(100);
+// Section Intersection
+
+const allSection = document.querySelectorAll("section");
+const sectionCallBack = function (entries, observer) {
+  const [entry] = entries;
+
+  if (!entry.isIntersecting) return;
+
+  entry.target.classList.add("show-section");
+  entry.target.classList.remove("section--hidden");
+
+  observer.unobserve(entry.target);
+};
+
+const sectionObserver = new IntersectionObserver(sectionCallBack, {
+  root: null,
+  threshold: 0,
+  rootMargin: "-150px",
+});
+
+allSection.forEach(function (sec) {
+  sectionObserver.observe(sec);
+});
+
+window.onload = function () {
+  document.querySelector(".header-2").classList.remove("section--hidden");
+  document.querySelector(".header-2").classList.add("show-section");
+};

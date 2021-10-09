@@ -220,6 +220,19 @@ footer{
     transform: translateY(-10px);
 }
 
+.section--hidden {
+    opacity: 0;
+    transform: translateY(8rem);
+
+  }
+
+
+.show-section{
+    transition: transform 1.5s, opacity 1s;
+}
+// section {
+//     transition: transform 1.5s, opacity 1s;
+//   }
 
 
 .social-media-global{
