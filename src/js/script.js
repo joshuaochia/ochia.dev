@@ -36,3 +36,47 @@ const navObs = new IntersectionObserver(navCallBack, {
 });
 
 navObs.observe(header);
+
+// Type writer in index page
+class TyperWriter {
+  _txtElement = document.querySelector(".txt-type");
+  _words = JSON.parse(this._txtElement.getAttribute("data-words"));
+  _wait = this._txtElement.getAttribute("data-wait");
+  _txt = "";
+  _isDeleting = false;
+  _wordIndex = 0;
+
+  constructor(typeSpeed) {
+    this.wait = parseInt(this._wait, 10);
+    this._writing();
+    this.typeSpeed = typeSpeed;
+  }
+
+  _writing() {
+    let typeSpeed = this.typeSpeed;
+    const current = this._wordIndex % this._words.length;
+
+    const fullTxt = this._words[current];
+
+    if (this._isDeleting) {
+      typeSpeed /= 2;
+      this._txt = fullTxt.substring(0, this._txt.length - 1);
+    } else {
+      this._txt = fullTxt.substring(0, this._txt.length + 1);
+    }
+
+    if (!this._isDeleting && this._txt === fullTxt) {
+      typeSpeed = this.wait;
+      this._isDeleting = true;
+    } else if (this._isDeleting && this._txt === "") {
+      typeSpeed = 1000;
+      this._isDeleting = false;
+      this._wordIndex++;
+    }
+    setTimeout(() => this._writing(), typeSpeed);
+
+    this._txtElement.innerHTML = `${this._txt}`;
+  }
+}
+
+new TyperWriter(100);
