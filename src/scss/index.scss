@@ -34,7 +34,11 @@
 .index-social-media a{
     color: black;
     padding: 1.5rem;
+ 
+}
 
+.index-social-media a i:hover{
+    transform: translateY(-25px);
 }
 
 // Header Responsive
