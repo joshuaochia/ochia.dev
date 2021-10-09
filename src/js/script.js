@@ -3,14 +3,19 @@
 const $ = require("jquery");
 window.$ = $;
 
-// $(".progress-bar").animate(
-//   {
-//     width: "75%",
-//   },
-//   2500
-// );
+///////////////////////////// Progress Bar for about me page
+const progressBarList = ["75", "90", "65"];
+const progressBar = $(".progress-bar");
+progressBar.each(function (index) {
+  $(this).animate(
+    {
+      width: `${progressBarList[index]}%`,
+    },
+    5000
+  );
+});
 
-const bar = $(".progress-bar");
+//////////////////////////////// Sticky Navbar for all page
 const navbar = document.querySelector(".nav-bar-main");
 const header = document.querySelector("#header");
 

@@ -49,6 +49,7 @@ section{
 
 .navbar{
     padding-top: 2rem;
+    position: sticky;
 }
 
 .navbar-nav.navbar-center {
@@ -261,12 +262,11 @@ footer{
 }
 
 .navbar-shrink{
-    position: sticky;
-
+    height: 100px !important;
     top: 0; /* At the top */
     z-index: 100;
     background-color: black;
     color: white !important;
-    transition: z-index 2s, height 4s;
+    transition: z-index 2s, height 2s;
 }
 
