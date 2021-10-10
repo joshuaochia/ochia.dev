@@ -108,3 +108,22 @@ window.onload = function () {
   document.querySelector(".header-2").classList.remove("section--hidden");
   document.querySelector(".header-2").classList.add("show-section");
 };
+
+// Q and A Functionality
+
+const QAcontent = document.querySelectorAll(".QA-content");
+
+QAcontent.forEach((body) => {
+  body.addEventListener("click", function (e) {
+    const contentParent = e.target.closest(".QA-content");
+
+    if (!contentParent) return;
+
+    const bodyContent = contentParent.querySelector(".QA-content-body");
+    const plusIcon = contentParent.querySelectorAll(".plus-icon");
+
+    plusIcon.forEach((icon) => icon.classList.toggle("hidden"));
+
+    bodyContent.classList.toggle("hidden");
+  });
+});
