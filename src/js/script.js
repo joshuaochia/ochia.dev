@@ -104,7 +104,7 @@ allSection.forEach(function (sec) {
   sectionObserver.observe(sec);
 });
 
-window.onload = function () {
+document.onload = function () {
   document.querySelector(".header-2").classList.remove("section--hidden");
   document.querySelector(".header-2").classList.add("show-section");
 };
