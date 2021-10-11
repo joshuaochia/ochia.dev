@@ -3,6 +3,11 @@
 const $ = require("jquery");
 window.$ = $;
 
+window.addEventListener("load", (e) => {
+  document.querySelector(".header-2").classList.remove("section--hidden");
+  document.querySelector(".header-2").classList.add("show-section");
+});
+
 ///////////////////////////// Progress Bar for about me page
 const progressBarList = ["75", "90", "65"];
 const progressBar = $(".progress-bar");
@@ -103,11 +108,6 @@ const sectionObserver = new IntersectionObserver(sectionCallBack, {
 allSection.forEach(function (sec) {
   sectionObserver.observe(sec);
 });
-
-document.onload = function () {
-  document.querySelector(".header-2").classList.remove("section--hidden");
-  document.querySelector(".header-2").classList.add("show-section");
-};
 
 // Q and A Functionality
 
