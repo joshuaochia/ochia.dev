@@ -6,6 +6,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 
 const htlmPageNames = ["about", "blog", "contact", "projects"];
 
@@ -35,6 +36,10 @@ module.exports = merge(common, {
         collapseWhitespace: true,
         removeComments: true,
       },
+    }),
+
+    new CopyPlugin({
+      patterns: [{ from: "public" }],
     }),
   ].concat(multiplePlugins),
   module: {

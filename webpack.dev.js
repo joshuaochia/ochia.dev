@@ -27,6 +27,9 @@ module.exports = merge(common, {
       filename: "index.html",
       template: "./index.html",
     }),
+    new CopyPlugin({
+      patterns: [{ from: "public" }],
+    }),
   ].concat(multiplePlugins),
   module: {
     rules: [
