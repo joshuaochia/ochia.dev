@@ -49,6 +49,7 @@ section{
 
 .navbar{
     padding-top: 2rem;
+    position: sticky;
 }
 
 .navbar-nav.navbar-center {
@@ -215,6 +216,25 @@ footer{
 
 }
 
+.social-media-global a i:hover{
+    transform: translateY(-10px);
+}
+
+.section--hidden {
+    opacity: 0;
+    transform: translateY(8rem);
+
+  }
+
+
+.show-section{
+    transition: transform 1.5s, opacity 1s;
+}
+// section {
+//     transition: transform 1.5s, opacity 1s;
+//   }
+
+
 .social-media-global{
     text-align: right  ;
 }
@@ -261,12 +281,11 @@ footer{
 }
 
 .navbar-shrink{
-    position: sticky;
-
+    height: 100px !important;
     top: 0; /* At the top */
     z-index: 100;
     background-color: black;
     color: white !important;
-    transition: z-index 2s, height 4s;
+    transition: z-index 2s, height 2s;
 }
 

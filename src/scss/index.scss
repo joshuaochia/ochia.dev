@@ -34,7 +34,11 @@
 .index-social-media a{
     color: black;
     padding: 1.5rem;
+ 
+}
 
+.index-social-media a i:hover{
+    transform: translateY(-25px);
 }
 
 // Header Responsive
@@ -107,4 +111,23 @@
         width: 18rem;
     }
 
+}
+
+.txt-type{
+    display: inline-block;
+    width: 285px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .txt-type{
+        width: 180px;
+        text-align: center;
+    }
+}
+.wrapper-writer{
+    display: inline-block;
+    width: 20px
+    
 }

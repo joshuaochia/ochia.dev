@@ -2,6 +2,7 @@ const path = require("path");
 const common = require("./webpack.common");
 const { merge } = require("webpack-merge");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 
 const htlmPageNames = ["about", "blog", "contact", "projects"];
 
@@ -25,6 +26,9 @@ module.exports = merge(common, {
       title: "index page",
       filename: "index.html",
       template: "./index.html",
+    }),
+    new CopyPlugin({
+      patterns: [{ from: "public" }],
     }),
   ].concat(multiplePlugins),
   module: {
