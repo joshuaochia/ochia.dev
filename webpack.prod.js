@@ -7,6 +7,16 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 
+const htlmPageNames = ["about", "blog", "contact", "projects"];
+
+const multiplePlugins = htlmPageNames.map((name) => {
+  return new HtmlWebpackPlugin({
+    title: `${name}`,
+    filename: `${name}.html`,
+    template: `./src/html/${name}.html`,
+  });
+});
+
 module.exports = merge(common, {
   mode: "production",
   output: {
@@ -26,7 +36,7 @@ module.exports = merge(common, {
         removeComments: true,
       },
     }),
-  ],
+  ].concat(multiplePlugins),
   module: {
     rules: [
       {
