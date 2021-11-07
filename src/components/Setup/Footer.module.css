@@ -1,0 +1,62 @@
+
+
+footer{
+    min-height: 290px;
+    margin: 5rem 0% 0% 0% !important;
+    background-color: var(--primary);
+  }
+
+.arrow{
+
+    font-stretch: expanded;
+    vertical-align: middle;
+    letter-spacing: 20px;
+
+}
+
+.hireme{
+    background-color: black !important;
+    color: white;
+    padding: 0.5rem;
+
+}
+
+#hirebtn{
+    text-decoration: none;
+    display: inline-block;
+    font-size:30px;
+    width: 250px !important;
+    font-family: 'MADE Dillan';
+    text-align: center;
+    color: white;
+    background-color: #16A34A !important;
+    border-radius: 30px;
+}
+
+#hirebtn:hover{
+    background-color: transparent !important;
+    border: 2px solid var(--primary);
+}
+
+
+
+.footersecond, .footersecond a{
+    color: white !important;
+    text-align: center;
+}
+
+.footerbrand{
+    padding-top: 30px;
+}
+
+.footerbrand a h2{
+    font-size: 50px;
+}
+
+.ullist{
+    padding-top: 5px;
+}
+
+.ullist li a{
+   text-decoration: none !important;
+}
