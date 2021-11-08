@@ -1,15 +1,25 @@
-.gcontainerleft{
+
+.gcontainer{
     height: auto;
     background-color: var(--primary);
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 30px;
     padding-top: 5%;
     padding-bottom: 8%;
     text-align: center;
     color: white;
 }
 
-.gcontainerleft h2::after{
+.left{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.right{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 30px;
+}
+
+.gcontainer h2::after{
     content:"";
     display:block;
     width: 3em;

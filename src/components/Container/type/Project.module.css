@@ -1,0 +1,15 @@
+.project-pic-green{
+    border-radius: 30px; 
+    border: 2px solid white;
+}
+
+.project-pic-white{
+    border-radius: 30px; 
+    border: 2px solid var(--primary);
+}
+
+.projectpic{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+}

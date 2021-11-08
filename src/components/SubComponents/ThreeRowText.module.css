@@ -1,0 +1,34 @@
+.custom-progress-bar{
+    padding-top: 3rem;
+
+}
+
+.knowme{
+    border-bottom: 1px solid black;
+    border-width: 2px;
+    margin-bottom: 50px;
+
+}
+
+.circleafter::before{
+    position: relative;
+    bottom: -18rem;
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    background-color: var(--primary);
+ }
+
+ @media only screen and (max-width: 1199px) {
+    .circleafter::before{
+        position: relative;
+    
+        content: none
+
+     }
+
+}

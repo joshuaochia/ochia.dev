@@ -60,3 +60,28 @@ p, li{
     background-color: transparent;
     border: 1px solid var(--primary);
 }
+
+.social-media-global{
+    text-align: right  ;
+    margin-top: 20px;
+}
+
+.social-media-global a{
+   
+    color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .social-media-global{
+        text-align:center;
+        margin: 0%;
+    }
+    .social-media-global a:not(:first-child){
+        color: black;
+        padding: 1rem;
+    
+    }
+
+}
