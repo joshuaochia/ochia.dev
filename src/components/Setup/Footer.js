@@ -8,15 +8,15 @@ const Footer = () => {
         <footer>
         <div className={classes.hireme}>
             <Container>
-                <div class="row">
-                    <div class="col-lg-6">
+                <div className="row">
+                    <div className="col-lg-6">
                         <h2>Need a software engineer?</h2>
                     </div>
-                    <div class="col-lg-2">
+                    <div className="col-lg-2">
                         <h2><span className={classes.arrow} >&#10230;</span></h2>
                     </div>
 
-                    <div class="col-lg-4"><a id={classes.hirebtn} className={classes.btngreen} href="contact">
+                    <div className="col-lg-4"><a id={classes.hirebtn} href="contact">
                             Hire me!!
                         </a></div>
 
@@ -24,23 +24,23 @@ const Footer = () => {
                 </Container>
         </div>
         <Container fluid className={`pt-5 ${classes.footersecond}`}>
-            <div class="row">
-                <div class={`col-lg-3 ${classes.footerbrand}`}>
+            <div className="row">
+                <div className={`col-lg-3 ${classes.footerbrand}`}>
                     <a href="index">
                         <Link to='/'><h2>Ochia.dev</h2></Link>
 
                     </a>
                 </div>
-                <div class="col-lg-3">
+                <div className="col-lg-3">
                     <h4>Quick Links</h4>
-                    <ul class={`list-unstyled ${classes.ullist}`}>
+                    <ul className={`list-unstyled ${classes.ullist}`}>
                         <li> <Link to="/about">About</Link></li>
                         <li> <Link to="/blog">Blogs</Link></li>
                         <li> <Link to="/projects">Projects</Link></li>
                
                     </ul>
                 </div>
-                <div class="col-lg-3">
+                <div className="col-lg-3">
                     <h4>Social Media</h4>
                     <ul className={`list-unstyled ${classes.ullist}`}>
                         <li> <a target="_blank" href="https://twitter.com/ochia_dev">Twitter</a></li>
@@ -49,7 +49,7 @@ const Footer = () => {
                         <li><a target="_blank" href="https://www.linkedin.com/in/joshuaochia/">Linkedin</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 ">
+                <div className="col-lg-3 ">
                     <h4>Contact</h4>
                     <ul className={`list-unstyled ${classes.ullist}`}>
                         <li> <a href="mailto:joshua@ochia.dev">joshua@ochia.dev</a></li>
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
 
         </Container>
-        <div class="container text-center pt-3">
+        <div className="container text-center pt-3">
             <p>&copy; Copyright 2021, Ochia.dev | Created by Joshua Ochia</p>
         </div>
     </footer>

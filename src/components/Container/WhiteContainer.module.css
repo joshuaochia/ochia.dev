@@ -1,0 +1,53 @@
+.wcontainer{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.wcontainer h2::after{
+    content:"";
+    display:block;
+    width: 3em;
+    max-width:30%;
+    border-bottom:2px solid var(--primary);
+    margin: 0.3em auto 0;
+}
+
+.indexsm{
+    margin-top: 10px;
+}
+.indexsm a{
+    
+    color: black;
+    padding: 1.5rem;
+}
+
+.indexsm a i:hover{
+    transform: translateY(-25px);
+}
+
+#header{
+
+    padding-top: 3%;
+}
+
+.heading h1{
+    font-size: 3.5rem !important;
+
+}
+
+.indexsubheading{
+    padding-top: 2%;
+    font-size: 30px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.division{
+    background-color: black;
+    margin-top: 10% !important;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+
+}

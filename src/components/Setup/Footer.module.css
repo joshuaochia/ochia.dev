@@ -4,6 +4,8 @@ footer{
     min-height: 290px;
     margin: 5rem 0% 0% 0% !important;
     background-color: var(--primary);
+    width: 100% !important;
+
   }
 
 .arrow{

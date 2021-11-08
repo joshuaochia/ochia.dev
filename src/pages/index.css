@@ -31,3 +31,32 @@ p, li{
     font-weight: 100 !important;
     color: rgb(82, 81, 81);
 }
+
+.learn-more{
+    font-weight: 600;
+}
+
+.green{
+    color: var(--primary);
+}
+
+.global-header{
+    border-bottom: 1px solid black;
+}
+
+.global-sub-heading{
+    padding-top: 15px;
+}
+
+.btn-green{
+    color: white;
+    background-color: var(--primary);
+    border-radius: 30px;
+    font-family: 'MADE Dillan';
+}
+
+.btn-green:hover{
+    color: var(--primary);
+    background-color: transparent;
+    border: 1px solid var(--primary);
+}

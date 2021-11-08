@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Button, Container, Nav } from 'react-bootstrap'
+import { Navbar, Container, Nav } from 'react-bootstrap'
 import * as classes from './Nav.module.css'
 
 
@@ -7,7 +7,7 @@ import * as classes from './Nav.module.css'
 const NavBar = () => {
 
     return (
-        <Navbar className={classes.nav} bg="white" expand="lg">
+        <Navbar bg="white" expand="lg">
 
         <Container>
 
