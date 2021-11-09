@@ -9,7 +9,7 @@ import bank from "../images/projects/bank.gif"
 import mapty from "../images/projects/mapty.gif"
 import recipeFE from "../images/projects/recipe-frontend.gif"
 import recipeAPI from "../images/projects/recipeapi.gif"
-
+import { Helmet } from "react-helmet"
 const header = {
   title: "What i've built?",
   description:
@@ -50,6 +50,9 @@ const RECIPEFE = {
 const Projects = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Home</title>
+      </Helmet>
       <Spacer height="40px" />
       <TextHeader description={header.description} title={header.title} />
       <Spacer height="40px" />

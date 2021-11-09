@@ -3,9 +3,13 @@ import Spacer from "../components/Spacer"
 import Layout from "../components/Layout"
 import Seo from "../components/seo"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 const NotFoundPage = () => (
   <Layout>
+    <Helmet>
+      <title>Home</title>
+    </Helmet>
     <Seo title="404: Not found" />
     <Spacer height="10em" />
     <h1 className="text-center">404: Not Found</h1>

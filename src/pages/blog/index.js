@@ -3,7 +3,7 @@ import Layout from "../../components/Layout"
 import FeatureProjects from "../../components/SubComponents/FeatureProjects"
 import TextHeader from "../../components/SubComponents/TextHeader"
 import Spacer from "../../components/Spacer"
-
+import { Helmet } from "react-helmet"
 const header = {
   title: "Coming up soon!",
   description:
@@ -13,6 +13,9 @@ const header = {
 const index = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Home</title>
+      </Helmet>
       <TextHeader description={header.description} title={header.title} />
       <Spacer height="200px" />
       <FeatureProjects />

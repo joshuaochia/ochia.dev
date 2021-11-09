@@ -6,6 +6,7 @@ import ThreeRowText from "../components/SubComponents/ThreeRowText"
 import GreeContainer from "../components/Container/GreeContainer"
 import WhiteContainer from "../components/Container/WhiteContainer"
 import { StaticImage } from "gatsby-plugin-image"
+import { Helmet } from "react-helmet"
 
 const header = {
   title: "Where my journey starts?",
@@ -20,6 +21,9 @@ const img = (
 const about = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Home</title>
+      </Helmet>
       <Spacer height="40px" />
       <TextHeader description={header.description} title={header.title} />
       <div className="container-fluid">

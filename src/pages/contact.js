@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import TextHeader from "../components/SubComponents/TextHeader"
+import { Helmet } from "react-helmet"
 
 const header = {
   title: "Contact me",
@@ -11,6 +12,9 @@ const header = {
 const contact = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Home</title>
+      </Helmet>
       <TextHeader description={header.description} title={header.title} />
       <section class="section--hidden header-2">
         <div class=" container">
