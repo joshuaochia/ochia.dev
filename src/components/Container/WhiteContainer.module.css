@@ -43,9 +43,20 @@
     padding-right: 5rem;
 }
 
+@media only screen and (max-width: 650px) {
+
+    .indexsubheading{
+    
+        font-size: 20px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+
+
 .division{
     background-color: black;
-    margin-top: 10% !important;
+    margin-top: 5% !important;
     width: 80%;
     text-align: center;
     margin: auto;

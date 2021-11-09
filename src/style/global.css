@@ -1,0 +1,85 @@
+
+
+@font-face {
+    font-family: 'MADE Dillan';
+    src: url('../typography/made-dillan.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'Space Text';
+    src: url('../typography/SpaceText-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root {
+    --primary: #16A34A
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family:'MADE Dillan' !important;
+}
+
+p, li{
+    font-family: 'Space Text' !important;
+    font-weight: 100 !important;
+    color: rgb(82, 81, 81);
+}
+
+.learn-more{
+    font-weight: 600;
+}
+
+.green{
+    color: var(--primary);
+}
+
+.global-header{
+    border-bottom: 1px solid black;
+}
+
+.global-sub-heading{
+    padding-top: 15px;
+}
+
+.btn-green{
+    color: white;
+    background-color: var(--primary);
+    border-radius: 30px;
+    font-family: 'MADE Dillan';
+}
+
+.btn-green:hover{
+    color: var(--primary);
+    background-color: transparent;
+    border: 1px solid var(--primary);
+}
+
+.social-media-global{
+    text-align: right  ;
+    margin-top: 20px;
+}
+
+.social-media-global a{
+   
+    color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .social-media-global{
+        text-align:center;
+        margin: 0%;
+    }
+    .social-media-global a:not(:first-child){
+        color: black;
+        padding: 1rem;
+    
+    }
+
+}
+

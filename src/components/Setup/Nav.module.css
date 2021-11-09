@@ -1,8 +1,10 @@
 
 
-.navbrand h1{
+.navbrand{
     color:  var(--primary);
+    text-decoration: none;
 }
+
 
 .navbar{
     padding: 1rem 0;

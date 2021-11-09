@@ -5,4 +5,6 @@
  */
 
 // You can delete this file if you're not using it
-import './node_modules/bootstrap/dist/css/bootstrap.css'
+import "normalize.css"
+import "./src/style/global.css"
+import "./node_modules/bootstrap/dist/css/bootstrap.css"
