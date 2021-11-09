@@ -4,11 +4,15 @@ import WhiteContainer from "../components/Container/WhiteContainer"
 import Spacer from "../components/Spacer"
 import Layout from "../components/Layout"
 import FeatureProjects from "../components/SubComponents/FeatureProjects"
-import coding from "../images/coding.gif"
+import coding from "../images/coding.webm"
 import { Helmet } from "react-helmet"
 
 const IndexPage = () => {
-  const codingGIF = <img src={coding} className="img-fluid" alt="coding" />
+  const codingGIF = (
+    <video width="100%" height="450" autoPlay muted loop>
+      <source src={coding} type="video/webm" />
+    </video>
+  )
 
   return (
     <Layout>

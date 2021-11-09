@@ -60,7 +60,7 @@ const contact = () => {
               </div>
             </div>
             <div class="pt-4 text-center">
-              <button type="submit" class="btn btn-green btn-lg btn-block">
+              <button type="submit" class="btn-green btn-lg">
                 Send the email
               </button>
             </div>

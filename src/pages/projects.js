@@ -5,10 +5,10 @@ import GreeContainer from "../components/Container/GreeContainer"
 import WhiteContainer from "../components/Container/WhiteContainer"
 import TextHeader from "../components/SubComponents/TextHeader"
 import Spacer from "../components/Spacer"
-import bank from "../images/projects/bank.gif"
-import mapty from "../images/projects/mapty.gif"
-import recipeFE from "../images/projects/recipe-frontend.gif"
-import recipeAPI from "../images/projects/recipeapi.gif"
+import bank from "../images/projects/bank.webm"
+import mapty from "../images/projects/mapty.webm"
+import recipeFE from "../images/projects/recipefrontend.webm"
+import recipeAPI from "../images/projects/recipeapi.webm"
 import { Helmet } from "react-helmet"
 const header = {
   title: "What i've built?",
@@ -16,7 +16,11 @@ const header = {
     "The apps listed below are the proof of my skillsets and fruits of hardwork learning different techs & languages from past few years. This list if short - please refer on my github account to get the other available apps or the other projects are private due to client agreements and confidentiality. Please contact me if you need more work or client references!",
 }
 const BANK = {
-  img: <img src={bank} alt="asd" className="img-fluid" />,
+  img: (
+    <video width="100%" height="240" autoPlay muted loop>
+      <source src={bank} type="video/webm" />
+    </video>
+  ),
   id: "01",
   title: "Bank Frontend App",
   tech1: ["Javascript", "HTML", "Bootstrap4", "Jquery"],
@@ -24,7 +28,11 @@ const BANK = {
   link: "",
 }
 const MAPTY = {
-  img: <img src={mapty} alt="asd" className="img-fluid" />,
+  img: (
+    <video width="100%" height="240" autoPlay muted loop>
+      <source src={mapty} type="video/webm" />
+    </video>
+  ),
   id: "02",
   title: "Mapty Website",
   tech1: ["Javascript", "HTML", "Bootstrap4", "Jquery"],
@@ -32,14 +40,22 @@ const MAPTY = {
   link: "",
 }
 const RECIPEAPI = {
-  img: <img src={recipeAPI} alt="asd" className="img-fluid" />,
+  img: (
+    <video width="100%" height="240" autoPlay muted loop>
+      <source src={recipeAPI} type="video/webm" />
+    </video>
+  ),
   id: "03",
   title: "Recipe Backend API",
   tech1: ["Django", "DRF", "Docker", "POSTGRESQL"],
   tech2: ["Github", "Git", "Flake8"],
 }
 const RECIPEFE = {
-  img: <img src={recipeFE} alt="asd" className="img-fluid" />,
+  img: (
+    <video width="100%" height="240" autoPlay muted loop>
+      <source src={recipeFE} type="video/webm" />
+    </video>
+  ),
   id: "04",
   title: "Bank Frontend App",
   tech1: ["Javascript", "HTML", "Bootstrap4", "Jquery"],

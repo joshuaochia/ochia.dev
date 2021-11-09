@@ -3,6 +3,7 @@
 @font-face {
     font-family: 'MADE Dillan';
     src: url('../typography/made-dillan.woff') format('woff');
+    font-display: swap;
 
 }
 
@@ -11,15 +12,20 @@
     src: url('../typography/SpaceText-Bold.woff') format('woff');
     font-style: normal;
     font-weight: normal;
+    font-display: swap;
 }
 
 :root {
     --primary: #16A34A
 }
 
+html {
+    font-family: 'Space Text';
+}
 
 
-h1, h2, h3, h4, h5, h6{
+
+h1, h2, h3, h4, h5, h6, button{
     font-family:'MADE Dillan' !important;
 }
 
@@ -46,10 +52,10 @@ p, li{
 }
 
 .btn-green{
-    color: white;
-    background-color: var(--primary);
-    border-radius: 30px;
-    font-family: 'MADE Dillan';
+    color: white ;
+    background-color: var(--primary) ;
+    border-radius: 30px !important;
+    border: none;
 }
 
 .btn-green:hover{
