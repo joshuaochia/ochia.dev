@@ -10,6 +10,7 @@ import mapty from "../images/projects/mapty.webm"
 import recipeFE from "../images/projects/recipefrontend.webm"
 import recipeAPI from "../images/projects/recipeapi.webm"
 import { Helmet } from "react-helmet"
+
 const header = {
   title: "What i've built?",
   description:
@@ -91,4 +92,4 @@ const Projects = () => {
 
 //
 
-export default Projects
+export default React.memo(Projects)

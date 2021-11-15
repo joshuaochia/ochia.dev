@@ -8,17 +8,21 @@ import WhiteContainer from "../components/Container/WhiteContainer"
 import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
 
-const header = {
-  title: "Where my journey starts?",
-  description:
-    "My journey starts being a Virtual Assistant for shopify store and executive. Eventually moved into tech industry where I chose to become a Software Engineer. Continuous learning and commitment is my weapon to become a mediocre developer. I always talk about: Paramore, One Piece, Techs, and Manga series!",
-}
 
-const img = (
-  <StaticImage width={500} src="../images/techiuse.png" alt="A dinosaur" />
-)
 
-const about = () => {
+const About = () => {
+
+  const header = {
+    title: "Where my journey starts?",
+    description:
+      "My journey starts being a Virtual Assistant for shopify store and executive. Eventually moved into tech industry where I chose to become a Software Engineer. Continuous learning and commitment is my weapon to become a mediocre developer. I always talk about: Paramore, One Piece, Techs, and Manga series!",
+  }
+  
+  const img = (
+    <StaticImage loading="lazy" placeholder="blurred" width={500} src="../images/techiuse.png" alt="A dinosaur" />
+  )
+
+   
   return (
     <Layout>
       <Helmet>
@@ -44,4 +48,4 @@ const about = () => {
   )
 }
 
-export default about
+export default React.memo(About)

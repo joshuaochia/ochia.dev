@@ -7,6 +7,7 @@ import FeatureProjects from "../components/SubComponents/FeatureProjects"
 import coding from "../images/coding.webm"
 import { Helmet } from "react-helmet"
 
+
 const IndexPage = () => {
   const codingGIF = (
     <video width="100%" height="450" autoPlay muted loop>

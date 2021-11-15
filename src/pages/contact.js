@@ -3,13 +3,15 @@ import Layout from "../components/Layout"
 import TextHeader from "../components/SubComponents/TextHeader"
 import { Helmet } from "react-helmet"
 
-const header = {
-  title: "Contact me",
-  description:
-    "After sending the email/contact form, expect the response after one-two business days if there's no response send me a personal email at joshua@ochia.dev or joshuacosareochia@gmail.com",
-}
 
-const contact = () => {
+const Contact = () => {
+
+  const header = {
+    title: "Contact me",
+    description:
+      "After sending the email/contact form, expect the response after one-two business days if there's no response send me a personal email at joshua@ochia.dev or joshuacosareochia@gmail.com",
+  }
+
   return (
     <Layout>
       <Helmet>
@@ -71,4 +73,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default React.memo(Contact)

@@ -1,1 +1,50 @@
-{"timestamp":1636813152652,"hash":"712c8b4662d464958cf48dec27a03b22","assets":{"/using-dsg":{"/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff":true,"/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff":true},"/dev-404-page/":{"/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff":true,"/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff":true},"/404/":{"/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff":true,"/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff":true},"/404.html":{"/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff":true,"/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff":true},"/about/":{"/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff":true,"/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff":true},"/contact/":{"/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff":true,"/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff":true},"/":{"/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff":true,"/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff":true},"/projects/":{"/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff":true,"/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff":true},"/using-ssr/":{"/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff":true,"/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff":true},"/using-typescript/":{"/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff":true,"/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff":true},"/blog/":{"/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff":true,"/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff":true}}}
+{
+  "timestamp": 1636813152652,
+  "hash": "712c8b4662d464958cf48dec27a03b22",
+  "assets": {
+    "/using-dsg": {
+      "/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff": true,
+      "/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff": true
+    },
+    "/dev-404-page/": {
+      "/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff": true,
+      "/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff": true
+    },
+    "/404/": {
+      "/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff": true,
+      "/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff": true
+    },
+    "/404.html": {
+      "/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff": true,
+      "/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff": true
+    },
+    "/about/": {
+      "/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff": true,
+      "/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff": true
+    },
+    "/contact/": {
+      "/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff": true,
+      "/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff": true
+    },
+    "/": {
+      "/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff": true,
+      "/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff": true
+    },
+    "/projects/": {
+      "/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff": true,
+      "/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff": true
+    },
+    "/using-ssr/": {
+      "/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff": true,
+      "/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff": true
+    },
+    "/using-typescript/": {
+      "/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff": true,
+      "/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff": true
+    },
+    "/blog/": {
+      "/static/made-dillan-6fe372a6d3dfb92af4a490017e1e6eb2.woff": true,
+      "/static/SpaceText-Bold-be41a1074ac8ee185cf010365d06e541.woff": true
+    }
+  }
+}
