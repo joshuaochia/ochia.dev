@@ -73,7 +73,7 @@ const Projects = () => {
       <Spacer height="40px" />
       <TextHeader description={header.description} title={header.title} />
       <Spacer height="40px" />
-      <div className="container-fluid  col-lg-12">
+      <div className="container-fluid col-lg-12">
         <div className="row">
           <GreeContainer data={BANK} left="left" type="project-type" />
           <WhiteContainer data={RECIPEFE} type="project-type" />

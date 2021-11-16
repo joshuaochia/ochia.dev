@@ -7,7 +7,9 @@ const GreeContainer = props => {
   const position = props.right || props.left
 
   return (
+    
     <div className={`${classes.gcontainer} ${classes[position]} col-lg-6 mt-5`}>
+      
       <div className="col-lg-12">
         {props.title ? <h2>{props.title}</h2> : ""}
         {type === "image-type" && props.img}
@@ -23,7 +25,8 @@ const GreeContainer = props => {
           />
         )}
       </div>
-    </div>
+      </div>
+  
   )
 }
 

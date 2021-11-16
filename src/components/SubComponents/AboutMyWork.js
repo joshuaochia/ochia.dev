@@ -15,10 +15,10 @@ const AboutMyWork = () => {
       <div className="container">
         <div className="global-header">
           <div className="row QA-title">
-            <div className="col-lg-6 ">
-              <h1>Q and A about my work </h1>
+            <div className="col-lg-6 col-10">
+              <h1>Q & A about me </h1>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-2">
               <span className={`${classes["arrowdownQAtitle"]}`}>&#8595;</span>
             </div>
           </div>

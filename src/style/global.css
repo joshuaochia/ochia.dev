@@ -89,3 +89,14 @@ p, li{
 
 }
 
+
+@media only screen and (max-width: 991px) {
+    .global-header{
+        text-align: center;
+    }
+
+    .global-sub-heading{
+        text-align: center;
+    }
+}
+

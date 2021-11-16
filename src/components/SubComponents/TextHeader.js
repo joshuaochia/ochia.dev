@@ -1,9 +1,10 @@
 import React from "react"
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa"
-
+import Spacer from "../Spacer"
 const TextHeader = props => {
   return (
-    <section id="header" className="section--hidden">
+    <section id="header">
+      <Spacer height="50px"/>
       <div className="container">
         <div className="global-header">
           <div className="row">
