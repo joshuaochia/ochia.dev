@@ -55,14 +55,23 @@ const Footer = () => {
             <ul className={`list-unstyled ${classes.ullist}`}>
               <li>
                 {" "}
-                <a href="https://twitter.com/ochia_dev">Twitter</a>
+                <a target="_blank" href="https://twitter.com/ochia_dev">
+                  Twitter
+                </a>
               </li>
 
               <li>
-                <a href="https://github.com/joshuaochia">Github</a>
+                <a target="_blank" href="https://github.com/joshuaochia">
+                  Github
+                </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/joshuaochia/">Linkedin</a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/joshuaochia/"
+                >
+                  Linkedin
+                </a>
               </li>
             </ul>
           </div>

@@ -5,12 +5,12 @@ import Project from "./type/Project"
 const GreeContainer = props => {
   const { type, data } = props
   const position = props.right || props.left
+  // const projectClasses = `offset-lg-3 col-lg-8`
+  const defaultClasses = `col-lg-12`
 
   return (
-    
     <div className={`${classes.gcontainer} ${classes[position]} col-lg-6 mt-5`}>
-      
-      <div className="col-lg-12">
+      <div className={defaultClasses}>
         {props.title ? <h2>{props.title}</h2> : ""}
         {type === "image-type" && props.img}
         {type === "project-type" && (
@@ -25,8 +25,7 @@ const GreeContainer = props => {
           />
         )}
       </div>
-      </div>
-  
+    </div>
   )
 }
 

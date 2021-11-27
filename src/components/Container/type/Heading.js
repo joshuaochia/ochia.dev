@@ -1,6 +1,7 @@
 import React from "react"
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa"
 import * as classes from "../WhiteContainer.module.css"
+import { Link } from "gatsby"
 
 function Heading() {
   return (
@@ -12,22 +13,26 @@ function Heading() {
         <p className={classes.indexsubheading}>
           A Full Stack Engineer. My story starts as a virtual assistant for
           shopify stores and executives.
-          <a style={{ display: "block" }} className="learn-more green" href="">
+          <Link
+            style={{ display: "block" }}
+            className="learn-more green"
+            to="/about"
+          >
             Learn more →
-          </a>
+          </Link>
         </p>
       </div>
 
       <hr className={classes.division} />
 
       <div className={classes.indexsm}>
-        <a href="">
+        <a href="https://twitter.com/ochia_dev">
           <FaTwitter size={50} />
         </a>
-        <a href="">
+        <a href="https://github.com/joshuaochia">
           <FaGithub size={50} />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/joshuaochia/">
           <FaLinkedin size={50} />
         </a>
       </div>

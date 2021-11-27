@@ -34,7 +34,7 @@ const FeatureProjects = () => {
                   Searching for new reciples? Use this app! - You can add new
                   recipes or even bookmark your favorite ones!
                 </p>
-                <Link to="/projects" className="btn btn-green">
+                <Link to="/projects" id="btn-green" className="btn">
                   View Recipe
                 </Link>
               </div>
@@ -49,7 +49,7 @@ const FeatureProjects = () => {
                   Mock bank account frontend app that you can deposits,
                   transfer, loan, or even withdraw your mock money!
                 </p>
-                <Link to="/projects" className="btn btn-green">
+                <Link to="/projects" id="btn-green" className="btn">
                   View Bank
                 </Link>
               </div>

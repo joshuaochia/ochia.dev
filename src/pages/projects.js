@@ -26,7 +26,7 @@ const BANK = {
   title: "Bank Frontend App",
   tech1: ["Javascript", "HTML", "Bootstrap4", "Jquery"],
   tech2: ["Github", "Git", "CSS"],
-  link: "",
+  link: "https://joshua-ochia-bank-app.netlify.app/",
 }
 const MAPTY = {
   img: (
@@ -38,7 +38,7 @@ const MAPTY = {
   title: "Mapty Website",
   tech1: ["Javascript", "HTML", "Bootstrap4", "Jquery"],
   tech2: ["Github", "Git", "CSS", "REST API"],
-  link: "",
+  link: "https://mapty-joshua-ochia.netlify.app/",
 }
 const RECIPEAPI = {
   img: (
@@ -50,6 +50,7 @@ const RECIPEAPI = {
   title: "Recipe Backend API",
   tech1: ["Django", "DRF", "Docker", "POSTGRESQL"],
   tech2: ["Github", "Git", "Flake8"],
+  link: "https://github.com/joshuaochia/recipe-app-api",
 }
 const RECIPEFE = {
   img: (
@@ -58,10 +59,10 @@ const RECIPEFE = {
     </video>
   ),
   id: "04",
-  title: "Bank Frontend App",
+  title: "Recipe Frontend App",
   tech1: ["Javascript", "HTML", "Bootstrap4", "Jquery"],
   tech2: ["Github", "Git", "CSS"],
-  link: "",
+  link: "https://github.com/joshuaochia/recipe-api-fullapp",
 }
 
 const Projects = () => {

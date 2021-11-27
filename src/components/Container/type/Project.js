@@ -32,10 +32,7 @@ const Project = props => {
       <div className="col-lg-12 text-right">
         <h3 className="pt-5">
           <span className="hire-me-arrow">&#10230;</span>
-          <a
-            style={{ color: props.color }}
-            href="https://joshua-ochia-bank-app.netlify.app/"
-          >
+          <a target="_blank" style={{ color: props.color }} href={props.link}>
             View here
           </a>
         </h3>
