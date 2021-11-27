@@ -3,9 +3,7 @@ import Layout from "../components/Layout"
 import TextHeader from "../components/SubComponents/TextHeader"
 import { Helmet } from "react-helmet"
 
-
 const Contact = () => {
-
   const header = {
     title: "Contact me",
     description:
@@ -20,28 +18,37 @@ const Contact = () => {
       <TextHeader description={header.description} title={header.title} />
       <section class="section--hidden header-2">
         <div class=" container">
-          <form>
+          <form action="https://formspree.io/f/mdoyezar" method="POST">
             <div class="form-row">
               <div class="col-lg-12">
                 <div class="col pt-3">
-                  <label for="firstName">First Name</label>
+                  <label htmlFor="firstName">First Name</label>
                   <input
+                    name="firstname"
+                    data-validation-required-message
+                    required
                     type="text"
                     class="form-control"
                     placeholder="First name"
                   />
                 </div>
                 <div class="pt-4">
-                  <label for="lastName">Last Name</label>
+                  <label htmlFor="lastName">Last Name</label>
                   <input
+                    name="lastname"
+                    data-validation-required-message
+                    required
                     type="text"
                     class="form-control"
                     placeholder="Last name"
                   />
                 </div>
                 <div class="pt-4">
-                  <label for="email">Email</label>
+                  <label htmlFor="email">Email</label>
                   <input
+                    name="email"
+                    data-validation-required-message
+                    required
                     type="email"
                     class="form-control"
                     placeholder="Email Address"
@@ -50,8 +57,11 @@ const Contact = () => {
               </div>
               <div class="col-lg-12">
                 <div class="pt-4">
-                  <label for="Message">Message</label>
+                  <label htmlFor="Message">Message</label>
                   <textarea
+                    name="message"
+                    data-validation-required-message
+                    required
                     class="form-control"
                     name=""
                     id=""
@@ -62,7 +72,7 @@ const Contact = () => {
               </div>
             </div>
             <div class="pt-4 text-center">
-              <button type="submit" class="btn-green btn-lg">
+              <button id="btn-green" type="submit" class="btn-lg">
                 Send the email
               </button>
             </div>
