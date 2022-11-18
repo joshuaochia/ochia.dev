@@ -1,0 +1,36 @@
+[
+    {
+        "id" : "tech-stack-1",
+        "title": "React",
+        "image": "./images/tech-stack/react.png"
+    },
+    {
+        "id" : "tech-stack-2",
+        "title": "Javascript",
+        "image": "./images/tech-stack/js.png"
+    },
+    {
+        "id" : "tech-stack-3",
+        "title": "Type Script",
+        "image": "./images/tech-stack/typescript.png"
+    },
+    {
+        "id" : "tech-stack-4",
+        "title": "NextJS",
+        "image": "./images/tech-stack/nextjs.png"
+    },
+    {
+        "id" : "tech-stack-5",
+        "title": "Gatsby",
+        "image": "./images/tech-stack/gatsby.png"
+    },
+    {
+        "id" : "tech-stack-6",
+        "title": "Python",
+        "image": "./images/tech-stack/python.png"
+    }
+    
+  
+]
+
+

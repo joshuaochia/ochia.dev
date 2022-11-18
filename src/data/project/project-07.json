@@ -1,0 +1,23 @@
+{
+    "id": "project-07",
+    "title": "Transfer for Sick Children",
+    "category": "Wagtail Development",
+    "client": "HPT",
+    "imgesBY": "Draxler",
+    "year": "2021 - 2021",
+    "featured_image": "./images/project-07.png",
+    "is_featured": true,
+    "body": [
+        "Multiple template tagging/html/css develop in Wagtail - Handling form submission using Django Crispy form and FormWizard for form management. Transport for Sick Children is a charity based in Greater Manchester."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/tfsc-feature-01.png"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/tfsc-feature-02.png"
+        }
+    ]
+}

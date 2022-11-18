@@ -1,0 +1,20 @@
+{
+    "id": "project-05",
+    "title": "Mc Defense",
+    "category": "Wagtail Development",
+    "client": "HPT",
+    "imgesBY": "Joshua Ochia",
+    "year": "2021 - 2021",
+    "featured_image": "./images/project-05.png",
+    "is_featured": true,
+    "body": [
+        "Responsible for developing their Template on Django as well as the form using Wizard form with Sendgrid as email backend. We choose to use Wagtail for more flexibility and scalability of their website."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/mcdefense-feature-01.png"
+        }
+    ]
+
+}

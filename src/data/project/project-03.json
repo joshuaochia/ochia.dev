@@ -1,0 +1,23 @@
+{
+    "id": "project-03",
+    "title": "Jerry Feightner Project",
+    "category": "Front end development",
+    "client": "Upright NYC",
+    "imgesBY": "Joshua Ochia",
+    "year": "2022 - 2022",
+    "featured_image": "./images/project-03.png",
+    "is_featured": true,
+    "body": [
+        "Develop few parts of the website and it's functionality using mainly Javascript, HTML, and CSS. Jerry Feightner is project that fights opioid addiction using NFT and Blockchain to gather funds."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/jerry-feature-01.png"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/jerry-feature-02.png"
+        }
+    ]
+}

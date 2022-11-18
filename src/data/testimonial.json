@@ -1,0 +1,28 @@
+[
+    {
+        "id" : "testimonial-1",
+        "number": "01",
+        "title": "Darren Hinton",
+        "subtitle": "Play Nyce Founder",
+        "description": "Non essendo espertissima di web ho trovato grande supporto e sono riuscita a risolvere i problemi che riscontravo. Grazie davvero!! Ottimo tema, semplice e con tante possibilità di utilizzo.",
+        "image": "./images/testimonial/darren.jpeg"
+    },
+    {
+        "id" : "testimonial-2",
+        "number": "02",
+        "title": "Michael Leipper",
+        "subtitle": "Edocuments",
+        "description": "Joshua is knowledgeable on front-end technologies such as React which was used in the project. Joshua was constrained to working with a rest API that was written by Edocuments. He quickly and easily understood the relationship between the data entities that he has to work with on the front end which allowed him to complete his project.",
+        "image": "./images/testimonial/mike.jpeg"
+    },
+    {
+        "id" : "testimonial-3",
+        "number": "03",
+        "title": "Ronald Arias",
+        "subtitle": "Software Team Lead | Qmee",
+        "description": "We've had the opportunity to collaborate in different things, and I'm always left with a good impression. He's keen and willing to learn and would be a good addition to any team.",
+        "image": "./images/testimonial/ronald.jpeg"
+    }
+]
+
+

@@ -1,0 +1,122 @@
+/*----------------------
+About Styles  
+-----------------------*/
+
+.about-style-01 {
+    .content {
+        .title {
+            font-weight: 500;
+            
+        }
+        .description {
+            letter-spacing: 1px;
+            margin-top: 33px;
+            .name-title {
+                font-weight: 400;
+            }
+        }
+        ul {
+            &.aboutdata-list {
+                margin-top: 36px;
+                li {
+                   
+                    .icon {
+
+                    }
+                    .label {
+
+                    }
+                    .value {
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*--------------------------
+    Information Data List  
+----------------------------*/
+
+.infodata-list {
+    display: flex;
+    flex-wrap: wrap;
+    @extend %liststyle;
+    margin: 0 -10px;
+    margin-top: 36px;
+    li {
+        margin: 0 10px;
+        background: var(--color-extra01);
+        line-height: 1.6;
+        padding: 10px 20px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+        @media #{$sm-layout} {
+            font-size: 14px;
+        }
+        .label {
+            margin-right: 40px;
+            position: relative;
+            font-weight: 500;
+            display: inline-block;
+            color: var(--color-heading);
+            &::after {
+                content: '';
+                width: 20px;
+                height: 1px;
+                background-color: var(--color-primary);
+                position: absolute;
+                top: 50%;
+                left: 100%;
+                margin-left: 10px;
+                margin-top: -1px;
+            }
+        }
+        .value {
+            display: inline-block;
+        }
+    }
+}
+
+
+
+.experience_inner {
+    .single-list {
+        border-bottom: 1px solid rgba(0,0,0,.1);
+        padding: 17px 0px 16px 0px;
+        display: flex;
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+        @media #{$sm-layout} {
+            display: block;
+            border-bottom-color: rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+        .list_inner {
+            flex-basis: 33.33%;
+            p {
+                color: #777;
+                font-family: "Muli", Sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 2.2em;
+                letter-spacing: 0px;
+                span {
+
+                }
+            }
+            &:nth-child(2) {
+                p {
+                    color: #EEEEEE;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+{
+    "id": "project-01",
+    "title": "Edocuments Ltd | Frontend",
+    "category": "Technology",
+    "client": "Edocuments Ltd",
+    "imgesBY": "Joshua Ochia",
+    "year": "2022 - 2022",
+    "featured_image": "./images/project-01.png",
+    "is_featured": true,
+    "body": [
+        "Develop Edocuments web app front end using Reactjs and .Net as a back end. The front end development includes messaging platform, document representation, profile management, maps, contacts and many more."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/edocs-feature-1.png"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/edocs-feature-2.png"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": "project-02",
+    "title": "Play Nyce | Frontend",
+    "category": "Web Development",
+    "client": "Darren",
+    "imgesBY": "Joshua Ochia",
+    "year": "2022 - 2022",
+    "featured_image": "./images/project-02.png",
+    "is_featured": true,
+    "body": [
+        "Wordpress development for Play Nyce who document park stories using Interview, Info gather, books, etc... We use Wordpress, Elementor, Figma, and Photoshop as our main Tech Stack"
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/playnyce-feature-01.png"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/playnyce-feature-02.png" 
+        }
+    ]
+}

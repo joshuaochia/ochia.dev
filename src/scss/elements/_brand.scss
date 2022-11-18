@@ -1,0 +1,84 @@
+/*----------------------
+Brand Styles  
+------------------------*/
+.brand-list-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .single-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 4px solid rgba(255,255,255,.05);
+        padding: 30px 20px;
+        position: relative;
+        height: 250px;
+        perspective: 1000px;
+        flex-basis: 25%;
+        border-right: transparent;
+        @media #{$md-layout} {
+            flex-basis: 50%;
+        }
+        @media #{$sm-layout} {
+            flex-basis: 50%;
+        }
+      
+        &:last-child {
+            border-right: 4px solid rgba(255,255,255,.05);
+        }
+        &:nth-child(2) {
+            @media #{$md-layout} {
+                border-right: 4px solid rgba(255,255,255,.05);
+            }
+            @media #{$sm-layout} {
+                border-right: 4px solid rgba(255,255,255,.05);
+            }
+        }
+        .number {
+            width: 50px;
+            height: 90px;
+            display: block;
+            left: 46px;
+            top: -16px;
+            position: absolute;
+            background-color: #1e1427;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            transition: all .3s ease;
+            span {
+                display: block;
+                width: 16px;
+                height: 16px;
+                bottom: 16px;
+                left: 50%;
+                margin-left: -8px;
+                position: absolute;
+                &::before {
+                    width: 2px;
+                    height: 16px;
+                    left: 50%;
+                    margin-left: -1px;
+                    position: absolute;
+                    content: '';
+                    top: 0;
+                    background-color: #ae45ff;
+                }
+                &::after {
+                    width: 16px;
+                    height: 2px;
+                    top: 50%;
+                    margin-top: -1px;
+                    position: absolute;
+                    content: '';
+                    left: 0;
+                    background-color: #ae45ff;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

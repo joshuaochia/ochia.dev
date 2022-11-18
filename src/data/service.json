@@ -1,0 +1,24 @@
+[
+    {
+        "id" : "service-1",
+        "number": "01",
+        "title": "React Js/TS Development",
+        "description": "Web development is the work involved in developing a web site for the Internet...",
+        "readmoreButton": "Read More..."
+    },
+    {
+        "id" : "service-2",
+        "number": "02",
+        "title": "JamStack Development",
+        "description": "Graphic design is the process of visual communication and problem-solving...",
+        "readmoreButton": "Read More..."
+    },
+    {
+        "id" : "service-3",
+        "number": "03",
+        "title": "Wagtail Development",
+        "description": "Adobe Photoshop is software that is extensively used for raster image editing...",
+        "readmoreButton": "Read More..."
+    }
+
+]

@@ -1,0 +1,23 @@
+{
+    "id": "project-04",
+    "title": "Lustre",
+    "category": "Front end development",
+    "client": "Upright NYC",
+    "imgesBY": "Joshua Ochia",
+    "year": "2022 - 2022",
+    "featured_image": "./images/project-04.png",
+    "is_featured": true,
+    "body": [
+        "Responsible for every development on their website given by the designer. I develope: Content Locking, Email Template, Nextjs extension api, fixing pop up issues, fixing banner issues, etc..."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/lustre-feature-01.png"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/lustre-feature-02.png"
+        }
+    ]
+}

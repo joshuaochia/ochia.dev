@@ -1,0 +1,155 @@
+/*--------------------
+Portfolio Styles 
+----------------------*/
+.portfolio-style-1 {
+    .portfolio {
+        margin-top: 50px;
+        position: relative;
+
+        .thumbnail {
+            height: 420px;
+            .gatsby-image-wrapper {
+                max-width: 100% !important;
+                img {
+                    border-radius: 6px;
+                }
+            }
+            a {
+                display: block;
+                height: 100%;
+                position: relative;
+                z-index: 1;
+
+                div {
+                    height: 100%;
+                }
+            }
+        }
+
+        .content {
+            .inner {
+                width: 500px;
+                max-width: 88%;
+                position: absolute;
+                z-index: 5;
+                top: 50%;
+                left: 50%;
+                transform: translate3d(-50%, -50%, 0) scale(0.6);
+                padding: 33px 20px;
+                text-align: center;
+                opacity: 0;
+                transition: transform .4s ease, opacity 0.6s ease;
+
+                .title_abs {
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    z-index: -1;
+                    transform: scale(1.25) translateZ(0);
+                    transition: all 1.4s ease;
+
+                    .layer {
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background-color: #000;
+                        border-radius: 5px;
+                        position: absolute !important;
+                    }
+                }
+
+                .category {
+                    margin-bottom: 4px;
+                    display: block;
+                    a {
+                        color: #bbb;
+                        font-family: "Muli", Sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 1.2em;
+                        letter-spacing: 0px;
+                        position: relative;
+                        &::before {
+                            content: '';
+                            width: 0;
+                            height: 1px;
+                            position: absolute;
+                            bottom: -2px;
+                            left: 100%;
+                            background-color: #bbb;
+                            transition: left .5s ease, width .5s ease;
+                        }
+                        &:hover {
+                            &::before {
+                                width: 100%;
+                                left: 0;
+                                transition: width .5s ease;
+                            }
+                        }
+                    }
+                }
+                .title {
+                    margin-bottom: 0;
+                    a {
+                        color: #eee;
+                        font-family: "Rubik", Sans-serif;
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 1.2em;
+                        letter-spacing: 0px;
+                        transition: 0.3s;
+                        &:hover {
+                            color: var(--color-primary);
+                        }
+                    }
+                }
+            }
+        }
+        &:hover {
+            .thumbnail {
+                a {}
+            }
+
+            .content {
+                .inner {
+                    transform: translate3d(-50%, -50%, 0) scale(1);
+                    opacity: 1;
+
+                    .title_abs {
+                        transform: scale(1) translateZ(0);
+
+                        .layer {}
+                    }
+
+                    .title {}
+
+                    .category {}
+                }
+
+            }
+        }
+    }
+}
+
+/* ----------------------
+Project Bottom  
+------------------------*/
+.project-bottom {
+    padding-top: 120px;
+    p {
+        color: #777;
+        font-family: "Muli", Sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        margin-bottom: 43px;
+    }
+}

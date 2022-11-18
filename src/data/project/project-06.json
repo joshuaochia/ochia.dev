@@ -1,0 +1,23 @@
+{
+    "id": "project-06",
+    "title": "Vistra",
+    "category": "Design",
+    "client": "Measure Minds",
+    "imgesBY": "Joshua Ochia",
+    "year": "2009 - 2019",
+    "featured_image": "./images/project-06.png",
+    "is_featured": true,
+    "body": [
+        "Design a landing page and Contact page for Vistra - These pages includes Employer of Record, Cross-border complexity, and International Expansion. "
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/vistra-feature-01.png"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/vistra-feature-02.png"
+        }
+    ]
+}
