@@ -23,7 +23,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
     ```
 
-1.  **Start developing.**
+1.  **Start developing. test**
 
     Navigate into your new site’s directory and start it up.
 
