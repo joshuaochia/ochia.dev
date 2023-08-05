@@ -7,7 +7,7 @@ import { blogData } from "@/data/blogs";
 import React, { useEffect, useState } from "react";
 import Modal from "./Modal";
 import Image from "next/image";
-import { TestimonialItem } from "../testimonial/testimonialItem";
+
 const chunkArray = (arr, chunkSize) => {
   const result = [];
   for (let i = 0; i < arr.length; i += chunkSize) {
@@ -103,8 +103,6 @@ export default function Blog() {
                         </div>
                       </SwiperSlide>
                     ))} */}
-                    <TestimonialItem />
-                    <TestimonialItem />
                   </Swiper>
                 )}
 

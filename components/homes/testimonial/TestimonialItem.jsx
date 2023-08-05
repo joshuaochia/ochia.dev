@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-export const TestimonialItem = () => {
+export default function TestimonialItem() {
   return (
     <div
       className="h1-modal-comment-item"
@@ -27,4 +27,4 @@ export const TestimonialItem = () => {
       </div>
     </div>
   );
-};
+}

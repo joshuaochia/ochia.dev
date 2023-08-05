@@ -6,7 +6,7 @@ import { Swiper } from "swiper/react";
 import React, { useEffect, useState } from "react";
 
 import Image from "next/image";
-import { TestimonialItem } from "../testimonial/testimonialItem";
+import TestimonialItem from "./TestimonialItem";
 
 export default function Testimonials() {
   return (
