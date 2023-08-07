@@ -1,15 +1,15 @@
 export const items = [
   {
     id: 1,
-    icon: "/assets/img/design.svg",
+    icon: "/assets/img/aws.png",
     title: "AWS  Development",
     description:
-      " Let your business unlock the true power of AWS  and propel your business to new heights of success.",
+      " Empower your business with my AWS cloud computing service, providing scalable, secure, and reliable solutions.",
     bg: "bg-prink",
   },
   {
     id: 2,
-    icon: "/assets/img/app-development.svg",
+    icon: "/assets/img/nextjs.png",
     title: "Nextjs Development",
     description:
       " I create blazing-fast and interactive web applications that deliver exceptional user experiences.",
@@ -17,20 +17,20 @@ export const items = [
   },
   {
     id: 3,
-    icon: "/assets/img/photograph.svg",
+    icon: "/assets/img/react.png",
     title: "Reactjs Development",
     description:
       " I leverage the component-based architecture that are not only easy to maintain but also scalable for future growth.",
     bg: "bg-catkrill",
   },
-  // {
-  //   id: 4,
-  //   icon: "/assets/img/webdev.svg",
-  //   title: "Python Development",
-  //   description:
-  //     "My expertise in Python allows me to craft robust solutions and automate processes, empowering businesses to achieve their objectives with elegance and precision.",
-  //   bg: "bg-prink",
-  // },
+  {
+    id: 4,
+    icon: "/assets/img/django.png",
+    title: "Django/Flask Dev",
+    description:
+      "Transform your ideas into robust web applications with our specialized Django backend development service.",
+    bg: "bg-catkrill",
+  },
 ];
 export const itemsTwo = [
   {

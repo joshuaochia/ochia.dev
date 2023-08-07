@@ -1,23 +1,24 @@
 export const experiences = [
   {
     id: 1,
-    bgClass: "bg-catkrill",
-    session: "2019 - Present",
-    role: "Sr. Software Tester",
-    company: "Google Inc.",
+    bgClass: "bg-prink",
+    session: "2023-Present  ",
+    role: "Nextjs Developer | Cloud compute",
+    company: "Recogitate UK",
   },
   {
     id: 2,
-    bgClass: "bg-prink",
-    session: "2015-2017",
-    role: "Cr. Web Developer",
-    company: "ib-themes ltd.",
+    bgClass: "bg-catkrill",
+    session: "2022 - 2022",
+    role: "Reactjs Developer",
+    company: "Edocuments UK",
   },
+
   {
     id: 3,
     bgClass: "bg-catkrill",
-    session: "2014 - 2015",
-    role: "Jr. Web Developer",
-    company: "Creative Gigs.",
+    session: "2022 - 2022",
+    role: "Front end dev",
+    company: "Athinia",
   },
 ];

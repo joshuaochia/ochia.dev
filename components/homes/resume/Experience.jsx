@@ -13,7 +13,7 @@ export default function Experience() {
             src="/assets/img/icon/exper-icon.png"
             alt="experience"
           />
-          experience
+          Latest experience
         </h4>
       </div>
 

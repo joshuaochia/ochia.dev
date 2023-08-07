@@ -3,6 +3,7 @@
 import { Navigation, Pagination } from "swiper";
 import { Swiper } from "swiper/react";
 
+import { testimonials } from "@/data/testimonials";
 import React, { useEffect, useState } from "react";
 
 import Image from "next/image";
@@ -34,12 +35,15 @@ export default function Testimonials() {
                   slidesPerView={1}
                   loop={true}
                 >
-                  <TestimonialItem />
-                  <TestimonialItem />
-                  <TestimonialItem />
-                  <TestimonialItem />
-                  <TestimonialItem />
-                  <TestimonialItem />
+                  {testimonials.map((item) => (
+                    <TestimonialItem
+                      text={item.text}
+                      image={item.image}
+                      key={item.id}
+                      name={item.name}
+                      company={item.company}
+                    />
+                  ))}
                 </Swiper>
 
                 <div className="blog-progation blog-progation-one"></div>
@@ -48,9 +52,7 @@ export default function Testimonials() {
           </div>
 
           <div className="footer-copyright text-center bg-light-white-2 pt-25 pb-25">
-            <span>
-              © {new Date().getFullYear()} All Rights Reserved by ib-themes.
-            </span>
+            <span>© {new Date().getFullYear()} All Rights Reserved.</span>
           </div>
         </div>
       </div>

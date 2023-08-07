@@ -8,7 +8,7 @@ import Preloader from "@/components/homes/Preloader";
 import MenuTwo from "@/components/homes/menus/MenuTwo";
 import Testimonials from "@/components/homes/testimonial/Testimonials";
 export const metadata = {
-  title: "Blog-1 || Bostami - Professional portfolio NextJS Template",
+  title: "Testimonials",
   description:
     "Discover Botami,the most impressive portfolio template for work showcase, blog",
 };

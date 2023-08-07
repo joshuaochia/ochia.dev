@@ -57,7 +57,7 @@ export default function AboutOne() {
 
         <div className="section-wrapper bg-light-white-2 pt-45 pb-60 pl-60 pr-60">
           <div className="bostami-section-title-wrap text-center mb-50">
-            <h3 className="section-title">clinet</h3>
+            <h3 className="section-title">Clients</h3>
           </div>
 
           <div className="bostami-client-slider">
@@ -93,9 +93,9 @@ export default function AboutOne() {
                     <SwiperSlide key={i}>
                       <div className="swiper-slide">
                         <Image
-                          height={62}
+                          height={40}
                           width={264}
-                          style={{ height: "62px", width: "fit-content" }}
+                          style={{ height: "40px", width: "fit-content" }}
                           className="bostami-client-slider-logo"
                           src={elm.imgSrc}
                           alt="client"
@@ -110,9 +110,7 @@ export default function AboutOne() {
         </div>
 
         <div className="footer-copyright text-center pt-25 pb-25">
-          <span>
-            © {new Date().getFullYear()} All Rights Reserved by ib-themes.
-          </span>
+          <span>© {new Date().getFullYear()} All Rights Reserved</span>
         </div>
       </div>
     </div>
