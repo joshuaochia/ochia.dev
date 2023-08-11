@@ -4,32 +4,19 @@ export const portfolioData = [
     class: "isotop-item logo",
     bgClass: "bg-prink",
     imgSrc: "/assets/img/work/work-img-1.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Chul urina",
+    subtitle: "Lambda, API Gateway, ERC",
+    title: "URL Shortener via Lambda",
     target: "#portfolio-1",
-    category: ["Logo"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
+    category: ["AWS"],
+    project: "Web tool",
+    languages: ["Javascript"],
+    client: "Personal Project",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
+      `A simple solution to simplify and enhance your online experience. URL Shortener powered by Lambda is a versatile tool designed to simplify the sharing of long and intricate web addresses. Whether you're posting on social media, sending emails, or disseminating information across various digital platforms, our product condenses lengthy URLs into concise, easy-to-manage links.`,
 
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `This not only enhances the visual aesthetics of your content but also accelerates loading times for your target audience. Featuring customizable branded links, real-time analytics, and advanced security options, our URL Shortener is an invaluable asset for marketers, content creators, and businesses seeking to optimize their link-sharing endeavors, monitor engagement metrics, and ensure a frictionless user experience.`,
     ],
   },
   {
@@ -37,98 +24,59 @@ export const portfolioData = [
     class: "isotop-item design mockup",
     bgClass: "bg-catkrill",
     imgSrc: "/assets/img/work/work-img-2.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Aura Dione",
+    subtitle: "Lambda, API Gateway, KMS",
+    title: "Chartjs server-side renderer",
     target: "#portfolio-1",
-    category: ["Mockup", "Graphic Design"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
+    category: ["AWS"],
+    project: "Web tool",
+    languages: ["Javascript"],
+    client: "Personal Project",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
+      `A ultimate solution for effortlessly embedding dynamic charts in emails and reports. With our innovative API-driven platform, users can seamlessly input their chart data, select their preferred chart type, and receive a stunning PNG image of their chart, ready to be integrated into any communication medium.`,
 
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Experience the power of automation as this platform generates chart images on demand, making regular reporting and notifications a breeze. Your data remains secure as the rendering process takes place on our trusted servers. Elevate your communication with visually engaging charts using the Chartjs Server-Side Renderer – where data visualization meets simplicity.`,
     ],
   },
   {
     id: 3,
     class: "isotop-item logo mockup",
     bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/work-img-3.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "T-Shirt Design",
+    imgSrc: "/assets/img/work/spread-vision.png",
+    subtitle: "Amplify, Nextjs, Tailwind",
+    title: "Fintech web app in Amplify",
     target: "#portfolio-1",
-    category: ["Mockup", "Logo"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
+    category: ["React/Nextjs", "AWS"],
+    project: "Web app",
+    languages: ["Typescript", "Javascript"],
     client: "Envato",
     previewLink: "#",
     previewName: "www.envato.com",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
+      `Introducing Spread Vision: Your Window to Informed Trading. Our fintech marvel is designed to revolutionize the way you approach stock trading. With Spread Vision, you have a powerful tool at your fingertips that enables you to compare, assess, and make data-driven decisions on stock pairs like never before.`,
 
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Note: This project is still on going testing and development.`,
     ],
   },
   {
     id: 4,
-    class: "isotop-item mockup",
+    class: "United Nation landing page",
     bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/work-img-4.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Packaging Box",
+    imgSrc: "/assets/img/work/un.png",
+    subtitle: "Sveltekit , Tailwind",
+    title: "United Nation landing page",
     target: "#portfolio-1",
-    category: ["Mockup"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
+    category: ["sveltekit"],
+    project: "Website",
+    languages: ["Javascript", "Typescript"],
+    client: "United Nation",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
+      `This is a landing page for United nation built using Sveltekit and Tailwind - it also consist of extensive animation.This landing page is launched in Netlify.`,
 
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Youth and garbage might seem like an odd pair, but that's where the magic happens. This page isn't about pointing fingers; it's about showcasing how the young, the vibrant, and the audacious are shaking up the status quo. They're the innovators crafting solutions, the activists driving awareness, and the catalysts for a cleaner, greener tomorrow.`,
     ],
   },
   {
@@ -136,65 +84,140 @@ export const portfolioData = [
     class: "isotop-item design logo",
     bgClass: "bg-prink",
     imgSrc: "/assets/img/work/work-img-5.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Modern Bag Design",
+    subtitle: "AWS, S3, CloudFront",
+    title: "A S3 Static Website with Cloudfront",
     target: "#portfolio-1",
-    category: ["Logo", "Graphic Design"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
+    category: ["AWS"],
+    project: "Website",
+    languages: ["Javascript"],
+    client: "Personal Project",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
+      `a simple yet impactful static website, brought to life using Amazon S3 and CloudFront. This platform showcases the beauty of straightforward design combined with efficient technology.`,
 
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `At its core, Amazon S3 (Simple Storage Service) serves as the backbone for storing and hosting the content. It's like a virtual storage unit that holds all the elements of the website – text, images, videos, and more. The beauty here lies in its simplicity; it delivers what you need without any frills or complexities.`,
     ],
   },
   {
     id: 6,
     class: "isotop-item mockup design",
     bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/work-img-6.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Chul urina",
+    imgSrc: "/assets/img/work/wordpress.jpg",
+    subtitle: "EC2, ASG, ALB, VPC",
+    title: "Scalable & Secure Wordpress Hosting in AWS",
     target: "#portfolio-1",
-    category: ["Mockup", "Graphic Design"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
+    category: ["AWS"],
+    project: "AWS Structure",
+    languages: ["PHP", "AWS"],
+    client: "Personal Project",
     previewLink: "#",
     previewName: "www.envato.com",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
+      `Our Scalable & Secure WordPress Hosting architecture on AWS combines several integral services to provide a robust and efficient setup. At its core are Amazon EC2 instances, serving as the backbone of our web hosting. These instances operate within a Virtual Private Cloud (VPC), ensuring network isolation and controlled access. An Application Load Balancer (ALB) is deployed to evenly distribute incoming traffic across multiple EC2 instances, promoting both reliability and scalability`,
 
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Security is paramount; Security Groups and Network ACLs control traffic, and IAM manages access permissions. This holistic architecture ensures your WordPress site remains highly available, scales effortlessly, and maintains the utmost security standards.`,
+    ],
+  },
+  {
+    id: 7,
+    class: "isotop-item mockup design",
+    bgClass: "bg-catkrill",
+    imgSrc: "/assets/img/work/athinia.png",
+    subtitle: "S3, Nextjs, Tailwind",
+    title: "From wordpress to Nextjs (Athinia)",
+    target: "#portfolio-1",
+    category: ["AWS", "React/Nextjs"],
+    project: "Website",
+    languages: ["Typescript", "Javascript"],
+    client: "Athinia",
+    previewLink: "#",
+    previewName: "",
+    desc: [
+      `Transitioning the website from WordPress to Next.js and Tailwind CSS has yielded remarkable results that leave the client delighted and the website significantly faster`,
+
+      ` By adopting Next.js, the site now benefits from server-side rendering and static site generation, resulting in blazing-fast load times and improved search engine visibility. Coupled with the streamlined and efficient styling of Tailwind CSS, the website's visual appeal has soared, all while reducing the overall page size and enhancing performance. This transformation has not only met the client's expectations but exceeded them, creating a user experience that is seamlessly smooth, visually striking, and lightning quick – a combination that keeps visitors engaged, satisfied, and coming back for more.`,
+    ],
+  },
+  {
+    id: 8,
+    class: "isotop-item mockup design",
+    bgClass: "bg-catkrill",
+    imgSrc: "/assets/img/work/edocs.webp",
+    subtitle: "Azure, Reactjs, Boostrap",
+    title: "Lite version of BIM - Edocuments",
+    target: "#portfolio-1",
+    category: ["React/Nextjs"],
+    project: "Web app",
+    languages: ["Typescript", "Javascript"],
+    client: "Edocuments",
+    previewLink: "#",
+    previewName: "",
+    desc: [
+      `Powered by a robust .NET backend and a dynamic React frontend, this Lite Version caters to streamlined communication and data exploration. Users can access project information in read-only mode, gaining insights without the complexities of full editing capabilities. The integration of messaging features facilitates real-time communication, enabling stakeholders to share thoughts, queries, and updates effortlessly.`,
+
+      `The .NET backend ensures reliability and security, while React's responsiveness delivers a smooth and intuitive user experience. By focusing on essentials, this Lite Version optimizes efficiency without compromising functionality. Welcome to a simplified yet impactful BIM experience that empowers collaboration through a harmonious blend of technology and usability.`,
+    ],
+  },
+
+  {
+    id: 9,
+    class: "isotop-item mockup design",
+    bgClass: "bg-catkrill",
+    imgSrc: "/assets/img/work/mapty.png",
+    subtitle: "Javascipt, Map Renderer",
+    title: "Mapty",
+    target: "#portfolio-1",
+    category: ["React/Nextjs"],
+    project: "Web app",
+    languages: ["Javascript"],
+    client: "Personal Project",
+    previewLink: "#",
+    previewName: "",
+    desc: [
+      `Personal Exercise Map Recorder for Fitness Adventures, Built with React. This innovative application is designed to seamlessly merge your fitness journey with dynamic technology, creating an engaging experience that motivates and tracks your activities.`,
+
+      `Effortlessly record your jogging, running, and other exercises with precision. The power of React comes into play, delivering a user interface that's as intuitive as it is vibrant. With just a few clicks, you can mark your exercise routes on the map, add details like distance, time, and even your mood.`,
+    ],
+  },
+  {
+    id: 10,
+    class: "isotop-item mockup design",
+    bgClass: "bg-catkrill",
+    imgSrc: "/assets/img/work/mc-defense.webp",
+    subtitle: "Python, Wagtail, Django",
+    title: "MC Defense",
+    target: "#portfolio-1",
+    category: ["Python"],
+    project: "CMS",
+    languages: ["Python", "Javascript"],
+    client: "HPT",
+    previewLink: "#",
+    previewName: "www.envato.com",
+    desc: [
+      `Tactical Store Unleashed by the Fusion of Django Wagtail CMS, JavaScript, HTML, and CSS. Prepare to embark on a seamless shopping experience where innovation meets tactical excellence.`,
+
+      `With Django Wagtail CMS at its core, MC Defense's back end empowers you to manage your store effortlessly. From product listings to dynamic content, Wagtail CMS ensures your digital arsenal is organized and up-to-date. Harness the power of customization, streamlining your store's backend operations with ease.`,
+    ],
+  },
+  {
+    id: 11,
+    class: "isotop-item mockup design",
+    bgClass: "bg-catkrill",
+    imgSrc: "/assets/img/work/tfsc.webp",
+    subtitle: "Python, Wagtail, Django",
+    title: "Transfer for Sick Children",
+    target: "#portfolio-1",
+    category: ["Python"],
+    project: "CMS",
+    languages: ["Python", "Javascript"],
+    client: "HPT",
+    previewLink: "https://transportforsickchildren.org/",
+    previewName: "transportforsickchildren.org",
+    desc: [
+      `A Heartfelt Initiative Powered by Django Wagtail CMS, JavaScript, HTML, and CSS. This organization is dedicated to compassionately transferring sick children, and its digital presence is a harmonious blend of technology and empathy.`,
+
+      `With Django Wagtail CMS steering the back end, Transfer For Sick Children operates seamlessly. Managing mission-critical information, stories, and resources becomes effortless. Django Wagtail CMS empowers you to focus on the organization's mission while ensuring a streamlined digital landscape.`,
     ],
   },
 ];
@@ -207,14 +230,14 @@ export const filterButtons = [
   },
   {
     id: 2,
-    text: "Mockup",
+    text: "AWS",
   },
   {
     id: 3,
-    text: "Graphic Design",
+    text: "React/Nextjs",
   },
   {
     id: 4,
-    text: "Logo",
+    text: "Python",
   },
 ];
