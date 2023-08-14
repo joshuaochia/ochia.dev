@@ -3,7 +3,7 @@ export const portfolioData = [
     id: 1,
     class: "isotop-item logo",
     bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/work-img-1.png",
+    imgSrc: "/assets/img/work/URL-Shortener.png",
     subtitle: "Lambda, API Gateway, ERC",
     title: "URL Shortener via Lambda",
     target: "#portfolio-1",
@@ -23,7 +23,7 @@ export const portfolioData = [
     id: 2,
     class: "isotop-item design mockup",
     bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/work-img-2.png",
+    imgSrc: "/assets/img/work/chart-renderer.png",
     subtitle: "Lambda, API Gateway, KMS",
     title: "Chartjs server-side renderer",
     target: "#portfolio-1",
@@ -71,8 +71,8 @@ export const portfolioData = [
     project: "Website",
     languages: ["Javascript", "Typescript"],
     client: "United Nation",
-    previewLink: "#",
-    previewName: "",
+    previewLink: "https://un-project-navy.vercel.app/",
+    previewName: "united nation",
     desc: [
       `This is a landing page for United nation built using Sveltekit and Tailwind - it also consist of extensive animation.This landing page is launched in Netlify.`,
 
@@ -83,7 +83,7 @@ export const portfolioData = [
     id: 5,
     class: "isotop-item design logo",
     bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/work-img-5.png",
+    imgSrc: "/assets/img/work/password-generator.png",
     subtitle: "AWS, S3, CloudFront",
     title: "A S3 Static Website with Cloudfront",
     target: "#portfolio-1",
@@ -91,8 +91,9 @@ export const portfolioData = [
     project: "Website",
     languages: ["Javascript"],
     client: "Personal Project",
-    previewLink: "#",
-    previewName: "",
+    previewLink:
+      "http://password-generator-ochia.s3-website-us-east-1.amazonaws.com/",
+    previewName: "password-gen.com",
     desc: [
       `a simple yet impactful static website, brought to life using Amazon S3 and CloudFront. This platform showcases the beauty of straightforward design combined with efficient technology.`,
 
@@ -131,8 +132,8 @@ export const portfolioData = [
     project: "Website",
     languages: ["Typescript", "Javascript"],
     client: "Athinia",
-    previewLink: "#",
-    previewName: "",
+    previewLink: "https://athinia.com/",
+    previewName: "Athinia",
     desc: [
       `Transitioning the website from WordPress to Next.js and Tailwind CSS has yielded remarkable results that leave the client delighted and the website significantly faster`,
 
@@ -151,8 +152,8 @@ export const portfolioData = [
     project: "Web app",
     languages: ["Typescript", "Javascript"],
     client: "Edocuments",
-    previewLink: "#",
-    previewName: "",
+    previewLink: "https://clever-selkie-b8af67.netlify.app/login",
+    previewName: "Edocs",
     desc: [
       `Powered by a robust .NET backend and a dynamic React frontend, this Lite Version caters to streamlined communication and data exploration. Users can access project information in read-only mode, gaining insights without the complexities of full editing capabilities. The integration of messaging features facilitates real-time communication, enabling stakeholders to share thoughts, queries, and updates effortlessly.`,
 
@@ -172,8 +173,8 @@ export const portfolioData = [
     project: "Web app",
     languages: ["Javascript"],
     client: "Personal Project",
-    previewLink: "#",
-    previewName: "",
+    previewLink: "https://mapty-joshua-ochia.netlify.app/",
+    previewName: "Mapty",
     desc: [
       `Personal Exercise Map Recorder for Fitness Adventures, Built with React. This innovative application is designed to seamlessly merge your fitness journey with dynamic technology, creating an engaging experience that motivates and tracks your activities.`,
 
@@ -193,7 +194,7 @@ export const portfolioData = [
     languages: ["Python", "Javascript"],
     client: "HPT",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "Business closed",
     desc: [
       `Tactical Store Unleashed by the Fusion of Django Wagtail CMS, JavaScript, HTML, and CSS. Prepare to embark on a seamless shopping experience where innovation meets tactical excellence.`,
 
@@ -213,7 +214,7 @@ export const portfolioData = [
     languages: ["Python", "Javascript"],
     client: "HPT",
     previewLink: "https://transportforsickchildren.org/",
-    previewName: "transportforsickchildren.org",
+    previewName: "TFSC",
     desc: [
       `A Heartfelt Initiative Powered by Django Wagtail CMS, JavaScript, HTML, and CSS. This organization is dedicated to compassionately transferring sick children, and its digital presence is a harmonious blend of technology and empathy.`,
 
