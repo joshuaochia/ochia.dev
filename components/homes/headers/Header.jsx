@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import svgLogo from "../../../public/assets/img/logo/logo-white1.svg";
 export default function Header() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const addDarkbg = () => {
     const elements = document.querySelectorAll(".home-1");
 
