@@ -42,13 +42,15 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   useEffect(() => {
     const currentState = localStorage?.getItem("idDarkMode");
-    if (JSON.parse(currentState) == true) {
-      document.body.classList.add("dark-theme");
-      addDarkbg();
-    } else {
-      document.body.classList.remove("dark-theme");
-      addlightBg();
-    }
+    document.body.classList.add("dark-theme");
+    addDarkbg();
+    // if (JSON.parse(currentState) == true) {
+    //   document.body.classList.add("dark-theme");
+    //   addDarkbg();
+    // } else {
+    //   document.body.classList.remove("dark-theme");
+    //   addlightBg();
+    // }
   }, []);
 
   return (
@@ -66,7 +68,7 @@ export default function Header() {
 
             <div className="col-6">
               <div className="bostami-header-menu-btn text-right">
-                <div
+                {/* <div
                   className="dark-btn dark-btn-stored mode-btn"
                   onClick={() => handleDarkmode()}
                 >
@@ -75,7 +77,7 @@ export default function Header() {
                   ) : (
                     <i class="moonicon fa-solid fa-moon"></i>
                   )}
-                </div>
+                </div> */}
                 <div
                   className={`menu-btn toggle_menu ${menuOpen && "active"} `}
                   onClick={() => setMenuOpen((pre) => !pre)}

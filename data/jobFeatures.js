@@ -23,14 +23,14 @@ export const items = [
       " I leverage the component-based architecture that are not only easy to maintain but also scalable for future growth.",
     bg: "bg-catkrill",
   },
-  {
-    id: 4,
-    icon: "/assets/img/django.png",
-    title: "Django/Flask Dev",
-    description:
-      "Transform your ideas into robust web applications with our specialized Django backend development service.",
-    bg: "bg-catkrill",
-  },
+  // {
+  //   id: 4,
+  //   icon: "/assets/img/django.png",
+  //   title: "Django/Flask Dev",
+  //   description:
+  //     "Transform your ideas into robust web applications with our specialized Django backend development service.",
+  //   bg: "bg-catkrill",
+  // },
 ];
 export const itemsTwo = [
   {

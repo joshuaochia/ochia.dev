@@ -9,16 +9,16 @@ export const contactData = [
       value: "+639 654 002797",
     },
   },
-  {
-    id: 2,
-    color: "#6AB5B9",
-    fontSize: "22px",
-    iconClass: "fa-regular fa-envelope-open-text",
-    text: {
-      label: "Email",
-      value: "joshua@ochia.dev",
-    },
-  },
+  // {
+  //   id: 2,
+  //   color: "#6AB5B9",
+  //   fontSize: "22px",
+  //   iconClass: "fa-regular fa-envelope-open-text",
+  //   text: {
+  //     label: "Email",
+  //     value: "joshuacosareochia@gmail.com",
+  //   },
+  // },
   {
     id: 3,
     color: "#FD7590",
