@@ -36,10 +36,13 @@ export default function AboutOne() {
                 <div key={i} className="col-xxl-6 col-xl-6 col-lg-6">
                   <div className={`bostami-what-do-item ${elm.bg} `}>
                     <div className="icon" style={{ margin: "0 auto" }}>
-                      <Image
+                      <img
                         height={40}
                         width={130}
-                        style={{ margin: "0 auto" }}
+                        style={{
+                          margin: "0 auto",
+                          height: "auto",
+                        }}
                         src={elm.icon}
                         alt="feature"
                       />
